@@ -17,9 +17,9 @@ const ValidResults = ({ results }: { results: Result[] }) => (
       {window.location.href}
     </a>
     <div className={styles.resultsContainer}>
-      <p className={classNames(styles.header, styles.name)}>NAME</p>
-      <p className={classNames(styles.header, styles.score)}>SCORE</p>
-      <p className={classNames(styles.header, styles.rank)}>RANK</p>
+      <p className={classNames(styles.header, styles.name)}>NAME 名字</p>
+      <p className={classNames(styles.header, styles.score)}>SCORE 分數</p>
+      <p className={classNames(styles.header, styles.rank)}>RANK 排名</p>
       {results.map((result) => (
         <ResultCategory key={result.name} result={result} />
       ))}

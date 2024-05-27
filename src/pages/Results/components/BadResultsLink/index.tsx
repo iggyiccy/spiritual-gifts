@@ -5,10 +5,10 @@ import styles from "./BadResultsLink.module.css";
 const BadResultsLink = () => (
   <div className={styles.container}>
     <Helmet>
-      <title>Spiritual Gifts - No results found</title>
+      <title>屬靈恩賜 - 找不到結果</title>
     </Helmet>
-    <p>No results found at this link</p>
-    <Link to="/">Return Home</Link>
+    <p>在此鏈接上找不到結果</p>
+    <Link to="/">返回主頁</Link>
   </div>
 );
 
