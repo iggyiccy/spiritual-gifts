@@ -43,37 +43,46 @@ const useCategories = (): Category[] =>
       (
         [
           {
-            name: "Wisdom",
+            name: "Wisdom 智慧",
             description: (
               <div>
                 <p>
                   The spiritual capability to apply spiritual knowledge
                   effectively. (<Verse verse="1 Corinthians 12:8" />)
+                  這有效地應用精神知識的精神能力。
                 </p>
                 <p>
                   Distinctives: A person with this gift enjoys skillfully
                   applying biblical knowledge to a variety of life situations.
                   They seem to have more common sense than the average person.
+                  獨特的：有這個禮物的人巧妙地享受
+                  將聖經知識應用於各種生活狀況。 他們似乎比普通人更常識。
                 </p>
                 <p>
                   Cautions: For God's knowledge to go out, it must first come
                   in. Don't sit on your Bible knowledge as though you "have
                   enough." This gift of wisdom has greater impact as your
                   knowledge of God's Word grows and as you become more involved
-                  in other people's lives.
+                  in other people's lives. 注意：為了上帝的知識去
+                  出來，它必須首先進來。不要坐在你的聖經知識上
+                  好像您“有夠”。這種智慧的禮物有更大的
+                  隨著您對上帝聖言的了解的影響，隨著您的發展
+                  更多參與別人的生活。
                 </p>
               </div>
             ),
           },
           {
-            name: "Administration",
+            name: "Administration 管理",
             description: (
               <div>
                 <p>
                   The spiritual capability to understand what makes an
                   organization function, and the special ability to plan and
                   execute procedures that increase the church's organizational
-                  effectiveness. (<Verse verse="1 Corinthians 12:28" />)
+                  effectiveness. (<Verse verse="1 Corinthians 12:28" />) 這
+                  精神能力了解是什麼使組織 功能以及計劃和執行的特殊能力
+                  增加教會組織的程序 效力。
                 </p>
                 <p>
                   Distinctives: A person with this gift understands the
@@ -86,6 +95,13 @@ const useCategories = (): Category[] =>
                   staff, and volunteers. Though a person with this gift is
                   mostly behind the scenes, they enable the "up front"
                   ministries and gifts to be more efficient and effective.
+                  獨特的：有這份禮物的人了解 為了實現一個需要採取的實用步驟
+                  給定目標。有天賦的管理員致力於
+                  有效性和效率。他們可以看一下情況
+                  將命令帶到混亂，請記住整體情況。 需要管理員可以“管家”
+                  當地教會。這些資源包括金錢，建築物，
+                  員工和志願者。雖然有這個禮物的人是 它們大多在幕後，使“前面”
+                  部委和禮物更有效。
                 </p>
                 <p>
                   Cautions: If you have this gift, be careful that you don't
@@ -96,18 +112,26 @@ const useCategories = (): Category[] =>
                   administrative people to "use" others to reach a goal. Don't
                   merely strive for the ends; appreciate what God wants to do
                   through the means. Remember that all people are in a process.
+                  注意：如果您有這個禮物，請注意不要
+                  扼殺聖靈在你自己的生活中的活動。好的
+                  管理人員願意改變課程，如果 領導層要求改變計劃。這需要一個
+                  順從的精神對領導力。中間有危險
+                  行政人員“使用”其他人實現目標。不
+                  只是為了努力而努力；欣賞上帝想要做的
+                  通過手段。請記住，所有人都在過程中。
                 </p>
               </div>
             ),
           },
           {
-            name: "Apostleship",
+            name: "Apostleship 使徒",
             description: (
               <div>
                 <p>
                   The spiritual capability to start churches and oversee their
                   development. (<Verse verse="1 Corinthians 12:28" />;{" "}
-                  <Verse verse="Ephesians 4:11" />)
+                  <Verse verse="Ephesians 4:11" />) 精神能力
+                  開始教堂並監督他們的發展。
                 </p>
                 <p>
                   Distinctives: Likened to modern day missionaries, a person
@@ -117,45 +141,58 @@ const useCategories = (): Category[] =>
                   churches. "Cross-cultural" work can include inner city or
                   international ministries. The authority of the apostle is
                   based on the Word and the body of believers that sends them
-                  out.
+                  out. 獨特的：比作現代傳教士 有這個禮物的人有一顆言傳福音
+                  在不同文化環境中的人們沒有聽到
+                  福音。他們渴望遍及文化，可能會喜歡
+                  開始新教堂。“跨文化”工作可以包括內心 城市或國際部。使徒的權威
+                  基於寄給他們的聖言和信徒的身體 出去。
                 </p>
                 <p>
                   Cautions: You may desire to cut a new path before you are
                   ready to move away from your present ministry efforts. Make
                   certain that there are appropriate provisions for the people
-                  that God has entrusted you in your present ministry.
+                  that God has entrusted you in your present ministry. 警告：
+                  您可能希望在準備移動之前剪一條新路 遠離您目前的事工努力。確定
+                  上帝有適當的規定 將您委託給您現在的事工。
                 </p>
               </div>
             ),
           },
           {
-            name: "Craftsmanship",
+            name: "Craftsmanship 工藝",
             description: (
               <div>
                 <p>
                   The spiritual capability to enhance ministry through the
                   creative construction of necessary tools for ministry. (
-                  <Verse verse="Exodus 31" />)
+                  <Verse verse="Exodus 31" />) 精神能力
+                  通過創造性的結構來增強事工的必要工具。
                 </p>
                 <p>
                   Distinctives: A person with this gift is a hands-on person. He
                   or she may be a builder, architect, designer; someone who
                   enhances ministry by his other unique skills. The gift can be
                   expressed in carpentry, metalworking, and other constructive
-                  skills.
+                  skills. 獨特的人：有這個禮物的人是一次實踐
+                  人。他或她可能是建築商，建築師，設計師；
+                  通過他的其他獨特技能來增強事工的人。這
+                  禮物可以用木工，金屬加工和其他 建設性技能。
                 </p>
                 <p>
                   Cautions: If you have this gift, don't belittle your
                   contribution as insignificant or not spiritual because it's so
                   tangible. Don't separate your opportunities to personally
                   minister to people from the ministry project that you're
-                  working on.
+                  working on. 注意：如果您有這個禮物，請不要貶低
+                  您的貢獻無關緊要，或者不是精神上的，因為
+                  這是如此的切實。不要分開您的機會 親自向事工項目中的人員部長
+                  您正在努力。
                 </p>
               </div>
             ),
           },
           {
-            name: "Creative Communication",
+            name: "Creative Communication 創意交流",
             description: (
               <div>
                 <p>
@@ -163,6 +200,8 @@ const useCategories = (): Category[] =>
                   variety of art forms. (The Holy Spirit's expression is in
                   various forms in the Bible - poetry, song, narrative, parable,
                   metaphor, etc.)
+                  傳達上帝的精神能力通過各種藝術形式的真理。（聖靈的表達在聖經中以各種形式
+                  - 詩歌，歌曲， 敘事，寓言，隱喻等）
                 </p>
                 <p>
                   Distinctives: A person with this gift is very creative and
@@ -172,6 +211,7 @@ const useCategories = (): Category[] =>
                   lighting, video, drama, music, etc. Public announcements of
                   events may be an application, with the ability to design
                   attractive and catchy flyers to attract more people to events.
+                  獨特的：有這個禮物的人非常有創造力，想像力。這個人能夠在獨特的方式從各種角度。他們傾向於視覺思想家。事工領域包括編程，聲音，照明，視頻，戲劇，音樂等事件可能是一個應用程序，具有設計能力有吸引力和吸引人的傳單，以吸引更多人參加活動。
                 </p>
                 <p>
                   Cautions: Be careful not to be artsy for art's sake. Use your
@@ -179,6 +219,7 @@ const useCategories = (): Category[] =>
                   communicators stray when they try to create and do things that
                   enamor people with the art form and the artist rather than the
                   message.
+                  注意事項：請注意不要為了藝術而成為藝術。用你的禮物來促進上帝和他的王國，而不是你自己。創造性傳播者試圖創建和做以藝術形式和藝術家迷戀的事物而不是消息。
                 </p>
                 <p>
                   Creative communicators need to be flexible and willing to
@@ -187,12 +228,13 @@ const useCategories = (): Category[] =>
                   The fact that you have visible talents where others don't does
                   not mean you should have full say in music, drama, or other
                   artistic areas.
+                  創意溝通者需要靈活，並且願意屈服於周圍的人們的意願。有時他們不是團隊球員。這是上帝將解決。您有明顯才能的事實其他並不意味著您應該在音樂中充滿意見，戲劇或其他藝術領域。
                 </p>
               </div>
             ),
           },
           {
-            name: "Discernment",
+            name: "Discernment 辨別",
             description: (
               <div>
                 <p>
@@ -201,6 +243,7 @@ const useCategories = (): Category[] =>
                   relationships. (
                   <Verse verse="1 Corinthians 12:10" />, "distinguishing between
                   spirits.")
+                  區分的精神能力真相和錯誤，並確定角色和中的欺騙關係。
                 </p>
                 <p>
                   Distinctives: Discernment is a keen sense of insight that
