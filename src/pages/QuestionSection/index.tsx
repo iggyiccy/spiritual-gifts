@@ -19,10 +19,10 @@ const QuestionSection = () => {
     useAnswers(questionSetNumber);
   const answers = useMemo<Answer[]>(
     () => [
-      { value: 0, textContent: "Not at all, never" },
-      { value: 1, textContent: "Some of the time, once in a while" },
-      { value: 2, textContent: "Most of the time, usually true" },
-      { value: 3, textContent: "Consistently, definitely true" },
+      { value: 0, textContent: "一點都不，從不" },
+      { value: 1, textContent: "有時，偶爾" },
+      { value: 2, textContent: "大多數時候，通常是真的" },
+      { value: 3, textContent: "一貫，絕對是真的" },
     ],
     []
   );
@@ -34,7 +34,7 @@ const QuestionSection = () => {
   return (
     <div ref={containerRef} className={styles.container}>
       <Helmet>
-        <title>Spiritual Gifts - {percentageDone}% Done</title>
+        <title>屬靈恩賜 - {percentageDone}% 完畢</title>
       </Helmet>
       <header>
         <PaginationControls />

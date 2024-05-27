@@ -9,7 +9,7 @@ const SubmitAssessmentLink = () => {
   return useMemo(
     () => (
       <Link to={`/result/${resultsSearchParams}`} onClick={clearAnswers}>
-        Finish
+        結束
       </Link>
     ),
     [clearAnswers, resultsSearchParams]

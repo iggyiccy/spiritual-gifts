@@ -6,7 +6,7 @@
   height: 100vh;
   justify-content: flex-start;
   padding: 0 0.5rem;
-  max-width: 600px;
+  max-width: 800px;
 }
 
 .container h1 {
@@ -16,6 +16,10 @@
 .footer {
   margin-top: auto;
   margin-bottom: 1rem;
+  flex: 0 0 auto;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
 }
 
 .assessmentLinksContainer {

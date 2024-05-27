@@ -36,18 +36,18 @@ const PaginationControls = () => {
   return (
     <div className={styles.container}>
       <div className={styles.links}>
-        <Link to="/">Home</Link>
+        <Link to="/">主頁</Link>
         {isAbleToGoBack && (
-          <Link to={`/question-set/${questionSetNumber - 1}`}>Previous</Link>
+          <Link to={`/question-set/${questionSetNumber - 1}`}>上一頁</Link>
         )}
         {isAbleToGoForwards && (
-          <Link to={`/question-set/${questionSetNumber + 1}`}>Next</Link>
+          <Link to={`/question-set/${questionSetNumber + 1}`}>下一頁</Link>
         )}
         {isAbleToFinish && <SubmitAssessmentLink />}
       </div>
       {unansweredQuestionsFromPreviousPages.length > 0 && (
         <div>
-          <p>Please go back and answer the following questions:</p>
+          <p>請回去回答以下問題：</p>
           {unansweredQuestionsFromPreviousPages.map((question) => (
             <span key={question.number}>
               <Link

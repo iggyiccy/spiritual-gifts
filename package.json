@@ -63,5 +63,8 @@
   },
   "devDependencies": {
     "buffer": "^6.0.3"
+  },
+  "resolutions": {
+    "@types/react": "17.0.80"
   }
 }

@@ -17,37 +17,37 @@ const Homepage = () => {
   return (
     <div className={styles.container}>
       <Helmet>
-        <title>
-          Spiritual Gifts Assessment{hasStarted ? " - In Progress" : ""}
-        </title>
+        <title>屬靈恩賜評估{hasStarted ? " - 進行中" : ""}</title>
       </Helmet>
-      <h1>Spiritual Gifts Assessment</h1>
+      <h1>屬靈恩賜評估</h1>
       <p>
-        Respond to the following assessment according to who you are, not who
-        you would like to be, or think you ought to be. Consider: How true are
-        these statements for you? What has been your experience?
+        根據您是誰回復以下評估，而不是誰 您想成為或認為您應該成為。考慮：真實
+        這些陳述給您？你有什麼經驗嗎？
       </p>
-      <p>This assessment could take 45 minutes.</p>
+      <p>此評估可能需要45分鐘。</p>
       <div className={styles.assessmentLinksContainer}>
         {hasStarted ? (
           <>
             <Link to="/question-set/1" onClick={clearAnswers}>
-              Reset
+              重置
             </Link>
             <Link
               to={`/question-set/${Math.ceil(
                 firstUnansweredQuestion.number / questionsPerPage
               )}`}
             >
-              Continue
+              繼續
             </Link>
           </>
         ) : (
-          <Link to="/question-set/1">Start Assessment</Link>
+          <Link to="/question-set/1">開始評估</Link>
         )}
       </div>
       <footer className={styles.footer}>
-        <small>This site is not affiliated with any organization.</small>
+        <small>
+          此網站為2024NLEC巴拿巴生活營所建 | GitHub @iggyiccy Open Source |
+          Credit to @alexjamesmalcolm
+        </small>
       </footer>
     </div>
   );
