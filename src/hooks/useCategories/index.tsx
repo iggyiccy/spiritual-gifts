@@ -1,25 +1,25 @@
 import { useMemo } from "react";
 
 export type CategoryName =
-  | "Wisdom"
-  | "Administration"
-  | "Apostleship"
-  | "Craftsmanship"
-  | "Creative Communication"
-  | "Discernment"
-  | "Encouragement"
-  | "Evangelism"
-  | "Faith"
-  | "Giving"
-  | "Helps"
-  | "Hospitality"
-  | "Intercession"
-  | "Knowledge"
-  | "Leadership"
-  | "Mercy"
-  | "Prophecy"
-  | "Shepherding"
-  | "Teaching";
+  | "Wisdom 智慧"
+  | "Administration 管理"
+  | "Apostleship 使徒"
+  | "Craftsmanship 工藝"
+  | "Creative Communication 創意交流"
+  | "Discernment 辨別"
+  | "Encouragement 鼓勵"
+  | "Evangelism 傳福音"
+  | "Faith 信心"
+  | "Giving 奉獻"
+  | "Helps 幫助"
+  | "Hospitality 好客"
+  | "Intercession 代禱"
+  | "Knowledge 知識"
+  | "Leadership 領導"
+  | "Mercy 憐憫"
+  | "Prophecy 預言"
+  | "Shepherding 牧養"
+  | "Teaching 教導";
 
 export interface Category {
   name: CategoryName;
@@ -65,7 +65,7 @@ const useCategories = (): Category[] =>
                   knowledge of God's Word grows and as you become more involved
                   in other people's lives. 注意：為了上帝的知識去
                   出來，它必須首先進來。不要坐在你的聖經知識上
-                  好像您“有夠”。這種智慧的禮物有更大的
+                  好像您“有夠”。這種智慧的恩賜有更大的
                   隨著您對上帝聖言的了解的影響，隨著您的發展
                   更多參與別人的生活。
                 </p>
@@ -95,13 +95,13 @@ const useCategories = (): Category[] =>
                   staff, and volunteers. Though a person with this gift is
                   mostly behind the scenes, they enable the "up front"
                   ministries and gifts to be more efficient and effective.
-                  獨特的：有這份禮物的人了解 為了實現一個需要採取的實用步驟
+                  獨特的：有這份恩賜的人了解 為了實現一個需要採取的實用步驟
                   給定目標。有天賦的管理員致力於
                   有效性和效率。他們可以看一下情況
                   將命令帶到混亂，請記住整體情況。 需要管理員可以“管家”
                   當地教會。這些資源包括金錢，建築物，
-                  員工和志願者。雖然有這個禮物的人是 它們大多在幕後，使“前面”
-                  部委和禮物更有效。
+                  員工和志願者。雖然有這個恩賜的人是 它們大多在幕後，使“前面”
+                  部委和恩賜更有效。
                 </p>
                 <p>
                   Cautions: If you have this gift, be careful that you don't
@@ -112,7 +112,7 @@ const useCategories = (): Category[] =>
                   administrative people to "use" others to reach a goal. Don't
                   merely strive for the ends; appreciate what God wants to do
                   through the means. Remember that all people are in a process.
-                  注意：如果您有這個禮物，請注意不要
+                  注意：如果您有這個恩賜，請注意不要
                   扼殺聖靈在你自己的生活中的活動。好的
                   管理人員願意改變課程，如果 領導層要求改變計劃。這需要一個
                   順從的精神對領導力。中間有危險
@@ -173,7 +173,7 @@ const useCategories = (): Category[] =>
                   or she may be a builder, architect, designer; someone who
                   enhances ministry by his other unique skills. The gift can be
                   expressed in carpentry, metalworking, and other constructive
-                  skills. 獨特的人：有這個禮物的人是一次實踐
+                  skills. 獨特的人：有這個恩賜的人是一次實踐
                   人。他或她可能是建築商，建築師，設計師；
                   通過他的其他獨特技能來增強事工的人。這
                   禮物可以用木工，金屬加工和其他 建設性技能。
@@ -183,7 +183,7 @@ const useCategories = (): Category[] =>
                   contribution as insignificant or not spiritual because it's so
                   tangible. Don't separate your opportunities to personally
                   minister to people from the ministry project that you're
-                  working on. 注意：如果您有這個禮物，請不要貶低
+                  working on. 注意：如果您有這個恩賜，請不要貶低
                   您的貢獻無關緊要，或者不是精神上的，因為
                   這是如此的切實。不要分開您的機會 親自向事工項目中的人員部長
                   您正在努力。

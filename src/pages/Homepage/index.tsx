@@ -45,8 +45,17 @@ const Homepage = () => {
       </div>
       <footer className={styles.footer}>
         <small>
-          此網站為2024NLEC巴拿巴生活營所建 | GitHub @iggyiccy Open Source |
-          Credit to @alexjamesmalcolm
+          此網站為 2024 NLEC 巴拿巴生活營所建 | GitHub{" "}
+          <a href="https://rchow.dev" className="text-green-600">
+            @iggyiccy
+          </a>{" "}
+          Open Source | Credit to{" "}
+          <a
+            href="https://github.com/alexjamesmalcolm/spiritual-gifts"
+            className="text-green-600"
+          >
+            @alexjamesmalcolm
+          </a>
         </small>
       </footer>
     </div>
