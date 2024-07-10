@@ -34,14 +34,26 @@ const PaginationControls = () => {
     [unansweredQuestions.length]
   );
   return (
-    <div className={styles.container}>
-      <div className={styles.links}>
-        <Link to="/">主頁</Link>
+    <div className="p-4">
+      <div className="flex justify-between max-w-screen-sm items-center">
+        <Link to="/test" className="text-primary">
+          主頁
+        </Link>
         {isAbleToGoBack && (
-          <Link to={`/question-set/${questionSetNumber - 1}`}>上一頁</Link>
+          <Link
+            to={`/question-set/${questionSetNumber - 1}`}
+            className="text-primary"
+          >
+            上一頁
+          </Link>
         )}
         {isAbleToGoForwards && (
-          <Link to={`/question-set/${questionSetNumber + 1}`}>下一頁</Link>
+          <Link
+            to={`/question-set/${questionSetNumber + 1}`}
+            className="text-primary"
+          >
+            下一頁
+          </Link>
         )}
         {isAbleToFinish && <SubmitAssessmentLink />}
       </div>

@@ -8,7 +8,7 @@ const BadResultsLink = () => (
       <title>屬靈恩賜 - 找不到結果</title>
     </Helmet>
     <p>在此鏈接上找不到結果</p>
-    <Link to="/">返回主頁</Link>
+    <Link to="/test">返回主頁</Link>
   </div>
 );
 

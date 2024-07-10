@@ -39,7 +39,7 @@ const QuestionSection = () => {
       <header>
         <PaginationControls />
       </header>
-      <main>
+      <main className="text-primary px-12">
         {questionsWithAnswers.map((question) => {
           const fieldsetId = `${styles.question}-${question.number}`;
           return (

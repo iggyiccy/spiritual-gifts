@@ -158,6 +158,26 @@ const App = () => {
                               </Button>
                             </CardContent>
                           </Card>
+                          <div className="mt-4 text-xs text-primary">
+                            <p>
+                              此網站為 2024 NLEC 巴拿巴生活營所建 <br /> Open
+                              Source via{" "}
+                              <a
+                                href="https://rchow.dev"
+                                className="text-zinc-400"
+                              >
+                                @iggyiccy
+                              </a>{" "}
+                              <br />
+                              Credit to{" "}
+                              <a
+                                href="https://github.com/alexjamesmalcolm/spiritual-gifts"
+                                className="text-zinc-400"
+                              >
+                                @alexjamesmalcolm
+                              </a>
+                            </p>
+                          </div>
                         </div>
                       </div>
                     </div>

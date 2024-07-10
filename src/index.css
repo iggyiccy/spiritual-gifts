@@ -74,7 +74,7 @@ a {
   color: var(--link-color);
 }
 
-@media (prefers-color-scheme: light) {
+/* @media (prefers-color-scheme: light) {
   :root {
     --text-color: black;
     --background-color: white;
@@ -90,4 +90,4 @@ a {
     --secondary-background-color: #403434;
     --link-color: lightcoral;
   }
-}
+} */
