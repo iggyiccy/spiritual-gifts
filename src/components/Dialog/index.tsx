@@ -22,10 +22,12 @@ const Dialog = ({
       isOpen ? (
         <dialog
           open
-          className={`${styles.dialog} bg-background outline outline-1 outline-zinc-100`}
+          className={`${styles.dialog} bg-background text-primary outline outline-1 outline-zinc-100`}
         >
           {children}
-          <Button onClick={handleClose}>Close</Button>
+          <Button className="mt-2" onClick={handleClose}>
+            Close
+          </Button>
         </dialog>
       ) : null,
     [children, handleClose, isOpen]
