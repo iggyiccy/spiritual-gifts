@@ -35,19 +35,28 @@ const ServiceWorker = lazy(() => import("components/ServiceWorker"));
 
 const App = () => {
   const routes = useRoutes();
-  const [theme, setTheme] = useState("light");
+  const [theme, setTheme] = useState(
+    () => localStorage.getItem("theme") || "light"
+  );
 
-  // Effect to apply the theme on component mount and when theme changes
   useEffect(() => {
-    if (theme === "dark") {
+    // Apply the theme based on the state or localStorage
+    const currentTheme = localStorage.getItem("theme") || theme;
+    if (currentTheme === "dark") {
       document.documentElement.classList.add("dark");
     } else {
       document.documentElement.classList.remove("dark");
     }
+    // Save the theme to localStorage when it changes
+    localStorage.setItem("theme", theme);
   }, [theme]);
 
   const toggleTheme = () => {
-    setTheme((prevTheme) => (prevTheme === "light" ? "dark" : "light"));
+    setTheme((prevTheme) => {
+      const newTheme = prevTheme === "light" ? "dark" : "light";
+      localStorage.setItem("theme", newTheme); // Save the new theme preference
+      return newTheme;
+    });
   };
   return (
     <div className={styles.container}>

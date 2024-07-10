@@ -1,7 +1,7 @@
 import { Helmet } from "react-helmet-async";
 export default function Songs() {
   return (
-    <main className="flex flex-1 flex-col gap-4 p-4 lg:gap-6 lg:p-6">
+    <main className="flex flex-1 flex-col gap-4 p-4 lg:gap-6 lg:p-6 text-primary">
       <Helmet>
         <title>2024 NLEC 巴拿巴生活營 Songs</title>
       </Helmet>
