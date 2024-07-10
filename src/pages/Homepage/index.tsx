@@ -38,7 +38,7 @@ const Homepage = () => {
             <Link
               to="/question-set/1"
               onClick={clearAnswers}
-              className="text-white dark:text-black bg-black rounded-lg h-10 px-4 py-2 text-center w-full"
+              className="text-white dark:text-black bg-black dark:bg-white rounded-lg h-10 px-4 py-2 text-center w-full"
             >
               重置
             </Link>
@@ -46,7 +46,7 @@ const Homepage = () => {
               to={`/question-set/${Math.ceil(
                 firstUnansweredQuestion.number / questionsPerPage
               )}`}
-              className="text-white dark:text-black bg-black rounded-lg h-10 px-4 py-2 text-center w-full"
+              className="text-white dark:text-black bg-black dark:bg-white rounded-lg h-10 px-4 py-2 text-center w-full"
             >
               繼續
             </Link>
@@ -54,7 +54,7 @@ const Homepage = () => {
         ) : (
           <Link
             to="/question-set/1"
-            className="text-white dark:text-black bg-black rounded-lg h-10 px-4 py-2 text-center w-full"
+            className="text-white dark:text-black bg-black dark:bg-white rounded-lg h-10 px-4 py-2 text-center w-full"
           >
             開始評估
           </Link>

@@ -35,7 +35,7 @@ const PaginationControls = () => {
   );
   return (
     <div className="p-4">
-      <div className="flex justify-between max-w-screen-sm items-center">
+      <div className="flex w-full justify-between max-w-screen-sm items-center">
         <Link to="/test" className="text-primary">
           主頁
         </Link>
