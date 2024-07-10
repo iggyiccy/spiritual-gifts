@@ -13,6 +13,8 @@ const Brochures = lazy(() => import("pages/Brochures"));
 const Songs = lazy(() => import("pages/Songs"));
 const Teams = lazy(() => import("pages/Teams"));
 const Maps = lazy(() => import("pages/Maps"));
+const Timetable = lazy(() => import("pages/Timetable"));
+const Events = lazy(() => import("pages/Events"));
 
 const useRoutes = (): Route[] => [
   { path: "/", Component: Dashboard },
@@ -20,6 +22,8 @@ const useRoutes = (): Route[] => [
   { path: "/songs", Component: Songs },
   { path: "/teams", Component: Teams },
   { path: "/maps", Component: Maps },
+  { path: "/events", Component: Events },
+  { path: "/timetable", Component: Timetable },
   { path: "/test", Component: Homepage },
   { path: "/result/:compressedResults", Component: Results },
   { path: "/question-set/:questionSetNumber", Component: QuestionSection },

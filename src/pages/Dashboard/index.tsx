@@ -32,7 +32,7 @@ export default function Dashboard() {
           </Button>
         </CardFooter>
       </Card>
-      <Alert className="hover:bg-zinc-100">
+      <Alert className="hover:bg-zinc-100 dark:hover:bg-zinc-900">
         <Download className="h-4 w-4" />
         <AlertTitle>Download & Save this App Offline</AlertTitle>
         <AlertDescription className="mt-4 spae">

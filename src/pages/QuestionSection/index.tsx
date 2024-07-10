@@ -6,10 +6,13 @@ import styles from "./QuestionSection.module.css";
 import PaginationControls from "./components/PaginationControls";
 import { Helmet } from "react-helmet-async";
 import usePercentageDone from "hooks/usePercentageDone";
+import { Label } from "../../components/ui/label";
+import { RadioGroup, RadioGroupItem } from "../../components/ui/radio-group";
 
 interface Answer {
   value: 0 | 1 | 2 | 3;
   textContent: string;
+  chineseContent?: string;
 }
 
 const QuestionSection = () => {
@@ -46,13 +49,16 @@ const QuestionSection = () => {
             <fieldset
               key={fieldsetId}
               id={fieldsetId}
-              className={styles.fieldSet}
+              className={`${styles.fieldSet} outline outline-1 outline-secondary p-4 mb-4 rounded-lg`}
             >
-              <legend>
-                <span>{question.number}) </span>
-                <span>{question.textContent}</span>
-              </legend>
-              <div className={styles.answersContainer}>
+              <Label>
+                <div className="flex flex-row space-x-2">
+                  <span>{question.number}) </span>
+                  <span>{question.textContent}</span>
+                </div>
+                <span className="text-sm ml-6">{question.chineseContent}</span>
+              </Label>
+              <div className={` ${styles.answersContainer} pt-4`}>
                 {answers.map((answer) => {
                   const inputId = `${styles.answer}-${question.number}-${answer.value}`;
                   const answerValueClass = {
@@ -76,12 +82,13 @@ const QuestionSection = () => {
                         }
                         checked={question.answer === answer.value}
                       />
-                      <label
-                        className={classNames(styles.label, answerValueClass)}
+                      <Label
+                        // className={classNames(styles.label, answerValueClass)}
+                        className="ml-2"
                         htmlFor={inputId}
                       >
                         {answer.value}) {answer.textContent}
-                      </label>
+                      </Label>
                     </Fragment>
                   );
                 })}

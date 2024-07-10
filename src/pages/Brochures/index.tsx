@@ -1,5 +1,5 @@
 import { Helmet } from "react-helmet-async";
-import { Download, Terminal } from "lucide-react";
+import { Download } from "lucide-react";
 
 import { Alert, AlertDescription, AlertTitle } from "../../components/ui/alert";
 

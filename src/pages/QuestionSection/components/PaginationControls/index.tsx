@@ -35,14 +35,14 @@ const PaginationControls = () => {
   );
   return (
     <div className="p-4">
-      <div className="flex w-full justify-between max-w-screen-sm items-center">
-        <Link to="/test" className="text-primary">
+      <div className="flex justify-between items-center">
+        <Link to="/test" className="text-primary text-sm">
           主頁
         </Link>
         {isAbleToGoBack && (
           <Link
             to={`/question-set/${questionSetNumber - 1}`}
-            className="text-primary"
+            className="text-primary text-sm"
           >
             上一頁
           </Link>
@@ -50,7 +50,7 @@ const PaginationControls = () => {
         {isAbleToGoForwards && (
           <Link
             to={`/question-set/${questionSetNumber + 1}`}
-            className="text-primary"
+            className="text-primary text-sm"
           >
             下一頁
           </Link>

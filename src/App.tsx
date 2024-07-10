@@ -95,7 +95,7 @@ const App = () => {
                               Home
                             </a>
                             <a
-                              href="#"
+                              href="/timetable"
                               className="flex items-center gap-3 rounded-lg px-3 py-2 text-muted-foreground transition-all hover:text-primary"
                             >
                               <Calendar className="h-4 w-4" />
@@ -123,7 +123,7 @@ const App = () => {
                               Gifts{" "}
                             </a>
                             <a
-                              href="#"
+                              href="/events"
                               className="flex items-center gap-3 rounded-lg px-3 py-2 text-muted-foreground transition-all hover:text-primary"
                             >
                               <Tent className="h-4 w-4" />
@@ -143,7 +143,7 @@ const App = () => {
                             <CardHeader className="p-2 pt-0 md:p-4">
                               <CardTitle>Open Brochure</CardTitle>
                               <CardDescription>
-                                Brouchure is saved offline. Click to open.
+                                Brochure is saved offline. Click to open.
                               </CardDescription>
                             </CardHeader>
                             <CardContent className="p-2 pt-0 md:p-4 md:pt-0">
@@ -213,7 +213,7 @@ const App = () => {
                                 Home
                               </a>
                               <a
-                                href="#"
+                                href="/timetable"
                                 className="mx-[-0.65rem] flex items-center gap-4 rounded-xl px-3 py-2 text-foreground hover:text-foreground"
                               >
                                 <Calendar className="h-5 w-5" />
@@ -241,7 +241,7 @@ const App = () => {
                                 Gifts
                               </a>
                               <a
-                                href="#"
+                                href="/events"
                                 className="mx-[-0.65rem] flex items-center gap-4 rounded-xl px-3 py-2 text-muted-foreground hover:text-foreground"
                               >
                                 <Tent className="h-5 w-5" />
@@ -260,7 +260,7 @@ const App = () => {
                                 <CardHeader>
                                   <CardTitle>Open Brochure</CardTitle>
                                   <CardDescription>
-                                    Brouchure is saved offline. Click to open.
+                                    Brochure is saved offline. Click to open.
                                   </CardDescription>
                                 </CardHeader>
                                 <CardContent>
