@@ -17,6 +17,7 @@ import {
   Tent,
   Sparkles,
   MapPinned,
+  Music,
 } from "lucide-react";
 import { Button } from "components/ui/button";
 import {
@@ -91,7 +92,14 @@ const App = () => {
                               Timetable
                             </a>
                             <a
-                              href="#"
+                              href="/songs"
+                              className="flex items-center gap-3 rounded-lg px-3 py-2 text-muted-foreground transition-all hover:text-primary"
+                            >
+                              <Music className="h-4 w-4" />
+                              Songs
+                            </a>
+                            <a
+                              href="/teams"
                               className="flex items-center gap-3 rounded-lg px-3 py-2 text-muted-foreground transition-all hover:text-primary"
                             >
                               <Users className="h-4 w-4" />
@@ -105,7 +113,7 @@ const App = () => {
                               Events
                             </a>
                             <a
-                              href="#"
+                              href="/maps"
                               className="flex items-center gap-3 rounded-lg px-3 py-2 text-muted-foreground transition-all hover:text-primary"
                             >
                               <MapPinned className="h-4 w-4" />
@@ -175,7 +183,14 @@ const App = () => {
                                 Timetable
                               </a>
                               <a
-                                href="#"
+                                href="/songs"
+                                className="mx-[-0.65rem] flex items-center gap-4 rounded-xl px-3 py-2 text-muted-foreground hover:text-foreground"
+                              >
+                                <Music className="h-5 w-5" />
+                                Songs
+                              </a>
+                              <a
+                                href="/teams"
                                 className="mx-[-0.65rem] flex items-center gap-4 rounded-xl px-3 py-2 text-muted-foreground hover:text-foreground"
                               >
                                 <Users className="h-5 w-5" />
@@ -189,7 +204,7 @@ const App = () => {
                                 Events
                               </a>
                               <a
-                                href="#"
+                                href="/maps"
                                 className="mx-[-0.65rem] flex items-center gap-4 rounded-xl px-3 py-2 text-muted-foreground hover:text-foreground"
                               >
                                 <MapPinned className="h-5 w-5" />
