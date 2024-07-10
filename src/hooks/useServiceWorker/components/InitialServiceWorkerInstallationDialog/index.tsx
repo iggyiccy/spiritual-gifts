@@ -2,7 +2,8 @@ import Dialog from "components/Dialog";
 
 const InitialServiceWorkerInstallationDialog = () => (
   <Dialog duration={5000}>
-    <p>Page has been saved for offline use</p>
+    <p className="font-bold">Download this App</p>
+    <p>Tap the Share Button, Select "Add to Home Screen", Confirm "Add"</p>
   </Dialog>
 );
 
