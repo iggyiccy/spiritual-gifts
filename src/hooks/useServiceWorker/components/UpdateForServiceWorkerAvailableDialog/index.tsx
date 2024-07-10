@@ -6,7 +6,7 @@ import { Button } from "../../../../components/ui/button";
 const UpdateForServiceWorkerAvailableDialog = () => {
   const { updateServiceWorker } = useServiceWorker();
   return (
-    <Dialog>
+    <Dialog duration={5000}>
       <p>There is a new version available.</p>
       <Button onClick={updateServiceWorker} className={`${styles.update} mt-2`}>
         Update
