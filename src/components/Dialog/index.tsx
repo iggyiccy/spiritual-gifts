@@ -22,7 +22,7 @@ const Dialog = ({
       isOpen ? (
         <dialog
           open
-          className={`${styles.dialog} bg-background text-primary outline outline-1 outline-zinc-100 max-w-48`}
+          className={`${styles.dialog} bg-background text-primary outline outline-1 outline-zinc-100 max-w-96`}
         >
           {children}
           <Button className="mt-2" onClick={handleClose}>
