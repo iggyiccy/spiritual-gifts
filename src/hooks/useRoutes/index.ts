@@ -8,10 +8,12 @@ interface Route {
 const Results = lazy(() => import("pages/Results"));
 const Homepage = lazy(() => import("pages/Homepage"));
 const QuestionSection = lazy(() => import("pages/QuestionSection"));
-const Landingpage = lazy(() => import("pages/Landingpage"));
+const Dashboard = lazy(() => import("pages/Dashboard"));
+const Brochures = lazy(() => import("pages/Brochures"));
 
 const useRoutes = (): Route[] => [
-  { path: "/", Component: Landingpage },
+  { path: "/", Component: Dashboard },
+  { path: "/brochures", Component: Brochures },
   { path: "/test", Component: Homepage },
   { path: "/result/:compressedResults", Component: Results },
   { path: "/question-set/:questionSetNumber", Component: QuestionSection },
