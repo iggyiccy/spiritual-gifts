@@ -18,6 +18,7 @@ import {
   Sparkles,
   MapPinned,
   Music,
+  Gift,
 } from "lucide-react";
 import { Button } from "components/ui/button";
 import {
@@ -106,6 +107,13 @@ const App = () => {
                               Teams{" "}
                             </a>
                             <a
+                              href="/test"
+                              className="flex items-center gap-3 rounded-lg px-3 py-2 text-muted-foreground transition-all hover:text-primary"
+                            >
+                              <Gift className="h-4 w-4" />
+                              Gifts{" "}
+                            </a>
+                            <a
                               href="#"
                               className="flex items-center gap-3 rounded-lg px-3 py-2 text-muted-foreground transition-all hover:text-primary"
                             >
@@ -124,7 +132,7 @@ const App = () => {
                         <div className="mt-auto p-4">
                           <Card x-chunk="dashboard-02-chunk-0">
                             <CardHeader className="p-2 pt-0 md:p-4">
-                              <CardTitle>Open Brochure Here</CardTitle>
+                              <CardTitle>Open Brochure</CardTitle>
                               <CardDescription>
                                 Brouchure is saved offline. Click to open.
                               </CardDescription>
@@ -197,6 +205,13 @@ const App = () => {
                                 Teams
                               </a>
                               <a
+                                href="/test"
+                                className="mx-[-0.65rem] flex items-center gap-4 rounded-xl px-3 py-2 text-muted-foreground hover:text-foreground"
+                              >
+                                <Gift className="h-5 w-5" />
+                                Gifts
+                              </a>
+                              <a
                                 href="#"
                                 className="mx-[-0.65rem] flex items-center gap-4 rounded-xl px-3 py-2 text-muted-foreground hover:text-foreground"
                               >
@@ -214,7 +229,7 @@ const App = () => {
                             <div className="mt-auto">
                               <Card>
                                 <CardHeader>
-                                  <CardTitle>Open Brochure Here</CardTitle>
+                                  <CardTitle>Open Brochure</CardTitle>
                                   <CardDescription>
                                     Brouchure is saved offline. Click to open.
                                   </CardDescription>
