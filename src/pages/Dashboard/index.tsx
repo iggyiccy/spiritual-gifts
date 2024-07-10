@@ -9,7 +9,7 @@ import {
 } from "../../components/ui/card";
 import { Alert, AlertDescription, AlertTitle } from "../../components/ui/alert";
 import { Download } from "lucide-react";
-import { eventName } from "@/configuration";
+import { eventName } from "../../configuration";
 
 export default function Dashboard() {
   return (
@@ -17,7 +17,7 @@ export default function Dashboard() {
       <Helmet>
         <title>2024 NLEC 巴拿巴生活營</title>
       </Helmet>
-      <Alert className="hover:bg-zinc-100" onClick={handleInstallClick}>
+      <Alert className="hover:bg-zinc-100">
         <Download className="h-4 w-4" />
         <AlertTitle>Download and Save this App Offline</AlertTitle>
         <AlertDescription>
