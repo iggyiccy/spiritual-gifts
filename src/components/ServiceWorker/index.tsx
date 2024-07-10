@@ -18,8 +18,8 @@ const ServiceWorker = () => {
   const { isInitialized, isUpdated } = useServiceWorker();
   return (
     <>
-      {isInitialized === false && <InitialServiceWorkerInstallationDialog />}
-      {isUpdated === false && <UpdateForServiceWorkerAvailableDialog />}
+      {/* {isInitialized && <InitialServiceWorkerInstallationDialog />}
+      {isUpdated && <UpdateForServiceWorkerAvailableDialog />} */}
     </>
   );
 };

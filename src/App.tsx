@@ -170,7 +170,7 @@ const App = () => {
                               size="icon"
                               className="shrink-0 md:hidden"
                             >
-                              <Menu className="h-5 w-5 dark:text-white" />
+                              <Menu className="h-5 w-5 text-black dark:text-white" />
                               <span className="sr-only">
                                 Toggle navigation menu
                               </span>
@@ -263,7 +263,7 @@ const App = () => {
                           onClick={toggleTheme}
                           className="rounded-full p-2"
                         >
-                          <Sun className="h-5 w-5 dark:text-white" />
+                          <Sun className="h-5 w-5 text-black dark:text-white" />
                           {theme === "light" ? (
                             <span className="sr-only">Switch to dark mode</span>
                           ) : (

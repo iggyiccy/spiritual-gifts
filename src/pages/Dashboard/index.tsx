@@ -17,17 +17,7 @@ export default function Dashboard() {
       <Helmet>
         <title>2024 NLEC 巴拿巴生活營</title>
       </Helmet>
-      <Alert className="hover:bg-zinc-100">
-        <Download className="h-4 w-4" />
-        <AlertTitle>Download and Save this App Offline</AlertTitle>
-        <AlertDescription>
-          You can now save this app offline and access it anytime, anywhere
-          during the {eventName}! 🎉
-          <br />
-          Click the Share button and select "Add to Home Screen" to save this
-          app offline.
-        </AlertDescription>
-      </Alert>
+
       <Card className="sm:col-span-2">
         <CardHeader className="pb-3">
           <CardTitle>✨ Spiritual Gifts Quiz</CardTitle>
@@ -42,6 +32,17 @@ export default function Dashboard() {
           </Button>
         </CardFooter>
       </Card>
+      <Alert className="hover:bg-zinc-100">
+        <Download className="h-4 w-4" />
+        <AlertTitle>Download & Save this App Offline</AlertTitle>
+        <AlertDescription className="mt-4 spae">
+          🎉 You can now save this app offline and access it anytime, anywhere
+          during the {eventName}!
+          <br />
+          ➡️ Click the Share button and select "Add to Home Screen" to save this
+          app offline.
+        </AlertDescription>
+      </Alert>
     </main>
   );
 }
