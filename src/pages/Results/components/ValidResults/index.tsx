@@ -3,11 +3,11 @@ import styles from "../../Results.module.css";
 import ResultCategory from "../ResultCategory";
 import { Result } from "hooks/useResults";
 import { Helmet } from "react-helmet-async";
+import { Label, Pie, PieChart } from "recharts";
 import {
   Table,
   TableBody,
   TableCaption,
-  TableCell,
   TableHead,
   TableHeader,
   TableRow,
@@ -23,7 +23,6 @@ const ValidResults = ({ results }: { results: Result[] }) => (
     <h2 className="scroll-m-20 text-2xl font-extrabold tracking-tight lg:text-3xl">
       屬靈恩賜評估結果
     </h2>
-    {/* TODO show a chart */}
     <Table>
       <TableCaption>你的屬靈恩賜評估結果</TableCaption>
       <TableHeader>
