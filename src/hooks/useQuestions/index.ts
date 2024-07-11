@@ -606,316 +606,308 @@ const useQuestions = (): Question[] => [
   },
   {
     textContent:
-      "I have suddenly known some things about others, but did not know how I knew them. 我突然知道一些關於別人的事情，但不知道我是怎么知道的。",
+      "I have suddenly known some things about others, but did not know how I knew them.",
     number: 89,
     category: "Knowledge 知識",
-    chineseContent: "",
+    chineseContent: "我突然知道一些關於別人的事情，但不知道我是怎么知道的。",
   },
   {
     textContent:
-      "I influence others to perform to the best of their capability. 我影響他人發揮他們的最大能力。",
+      "I influence others to perform to the best of their capability. ",
     number: 90,
     category: "Leadership 領導",
-    chineseContent: "",
+    chineseContent: "我影響他人發揮他們的最大能力。",
   },
   {
     textContent:
-      "I can look beyond a person’s handicaps or problems to see a life that matters to God. 我可以超越一個人的殘疾或問題，看到一個對上帝重要的生命。",
+      "I can look beyond a person’s handicaps or problems to see a life that matters to God. ",
     number: 91,
     category: "Mercy 憐憫",
-    chineseContent: "",
+    chineseContent: "我可以超越一個人的殘疾或問題，看到一個對上帝重要的生命。",
   },
   {
-    textContent:
-      "I like people who are honest and will speak the truth. 我喜歡誠實的人，並會說出真相。",
+    textContent: "I like people who are honest and will speak the truth. ",
     number: 92,
     category: "Prophecy 預言",
-    chineseContent: "",
+    chineseContent: "我喜歡誠實的人，並會說出真相。",
   },
   {
     textContent:
-      "I enjoy giving guidance and practical support to a small group of people. 我喜歡給一小群人指導和實際支持。",
+      "I enjoy giving guidance and practical support to a small group of people. ",
     number: 93,
     category: "Shepherding 牧養",
-    chineseContent: "",
+    chineseContent: "我喜歡給一小群人指導和實際支持。",
   },
   {
     textContent:
-      "I can communicate scripture in ways that motivate others to study and want to learn more. 我可以以激勵他人學習並想要更多學習的方式傳達經文。",
+      "I can communicate scripture in ways that motivate others to study and want to learn more. ",
     number: 94,
     category: "Teaching 教導",
-    chineseContent: "",
+    chineseContent: "我可以以激勵他人學習並想要更多學習的方式傳達經文。",
   },
   {
     textContent:
-      "I give practical advice to help others through complicated situations. 我給予實際的建議，幫助他人度過複雜的情況。",
+      "I give practical advice to help others through complicated situations. ",
     number: 95,
     category: "Wisdom 智慧",
-    chineseContent: "",
+    chineseContent: "我給予實際的建議，幫助他人度過複雜的情況。",
   },
   {
-    textContent:
-      "I enjoy learning about how organizations function. 我喜歡了解組織如何運作。",
+    textContent: "I enjoy learning about how organizations function. ",
     number: 96,
     category: "Administration 管理",
-    chineseContent: "",
+    chineseContent: "我喜歡了解組織如何運作。",
   },
   {
-    textContent: "I enjoy pioneering new undertakings. 我喜歡開創新事業。",
+    textContent: "I enjoy pioneering new undertakings. ",
     number: 97,
     category: "Apostleship 使徒",
-    chineseContent: "",
+    chineseContent: "我喜歡開創新事業。",
   },
   {
-    textContent:
-      "I am good at and enjoy working with my hands. 我擅長並喜歡動手做事。",
+    textContent: "I am good at and enjoy working with my hands. ",
     number: 98,
     category: "Craftsmanship 工藝",
-    chineseContent: "",
+    chineseContent: "我擅長並喜歡動手做事。",
   },
   {
-    textContent: "I am creative and imaginative. 我有創造力和想像力。",
+    textContent: "I am creative and imaginative. ",
     number: 99,
     category: "Creative Communication 創意交流",
-    chineseContent: "",
+    chineseContent: "我有創造力和想像力。",
   },
   {
     textContent:
-      "I can identify preaching, teaching, or communication that is not biblically true. 我可以識別不符合聖經真理的講道，教導或溝通。",
+      "I can identify preaching, teaching, or communication that is not biblically true. ",
     number: 100,
     category: "Discernment 辨別",
-    chineseContent: "",
+    chineseContent: "我可以識別不符合聖經真理的講道，教導或溝通。",
   },
   {
     textContent:
-      "I like motivating others to take steps for spiritual growth. 我喜歡激勵他人採取精神成長的步驟。",
+      "I like motivating others to take steps for spiritual growth. ",
     number: 101,
     category: "Encouragement 鼓勵",
-    chineseContent: "",
+    chineseContent: "我喜歡激勵他人採取精神成長的步驟。",
   },
   {
     textContent:
-      "I openly and confidently tell others what Christ has done for me. 我公開且自信地告訴別人基督為我做了什麼。",
+      "I openly and confidently tell others what Christ has done for me. ",
     number: 102,
     category: "Evangelism 傳福音",
-    chineseContent: "",
+    chineseContent: "我公開且自信地告訴別人基督為我做了什麼。",
   },
   {
-    textContent:
-      "I am regularly challenging other to trust God. 我經常挑戰其他人信任上帝。",
+    textContent: "I am regularly challenging other to trust God. ",
     number: 103,
     category: "Faith 信心",
-    chineseContent: "",
+    chineseContent: "我經常挑戰其他人信任上帝。",
   },
   {
-    textContent:
-      "I give generously due to my commitment to stewardship. 我由於對管理的承諾而慷慨。",
+    textContent: "I give generously due to my commitment to stewardship. ",
     number: 104,
     category: "Giving 奉獻",
-    chineseContent: "",
+    chineseContent: "我由於對管理的承諾而慷慨。",
   },
   {
     textContent:
-      "I feel comfortable being a helper, assisting others to do their job more effectively. 我感到舒適成為助手，幫助他人更有效地完成工作。",
+      "I feel comfortable being a helper, assisting others to do their job more effectively. ",
     number: 105,
     category: "Helps 幫助",
-    chineseContent: "",
+    chineseContent: "我感到舒適成為助手，幫助他人更有效地完成工作。",
   },
   {
-    textContent:
-      "I do whatever I can to make people feel that they belong. 我盡我所能讓人們感到自己屬於。",
+    textContent: "I do whatever I can to make people feel that they belong. ",
     number: 106,
     category: "Hospitality 好客",
-    chineseContent: "",
+    chineseContent: "我盡我所能讓人們感到自己屬於這個群體。",
   },
   {
-    textContent:
-      "I am honored when someone asks me to pray for them. 當有人請我為他們祈禱時，我感到榮幸。",
+    textContent: "I am honored when someone asks me to pray for them. ",
     number: 107,
     category: "Intercession 代禱",
-    chineseContent: "",
+    chineseContent: "當有人請我為他們祈禱時，我感到榮幸。",
   },
   {
     textContent:
-      "I discover important Biblical truths when reading or studying. 我在閱讀或學習時發現重要的聖經真理。",
+      "I discover important Biblical truths when reading or studying. ",
     number: 108,
     category: "Knowledge 知識",
-    chineseContent: "",
+    chineseContent: "我在閱讀或學習時發現重要的聖經真理。",
   },
   {
     textContent:
-      "I am able to cast a vision that others want to be a part of. 我能夠提出一個讓其他人想參與的願景。",
+      "I am able to cast a vision that others want to be a part of. ",
     number: 109,
     category: "Leadership 領導",
-    chineseContent: "",
+    chineseContent: "我能夠提出一個讓其他人想參與的願景。",
   },
   {
     textContent:
-      "I enjoy bringing hope and joy to people living in difficult circumstances. 我喜歡給生活在困難環境中的人帶來希望和喜樂。",
+      "I enjoy bringing hope and joy to people living in difficult circumstances. ",
     number: 110,
     category: "Mercy 憐憫",
-    chineseContent: "",
+    chineseContent: "我喜歡給生活在困難環境中的人帶來希望和喜樂。",
   },
   {
     textContent:
-      "I will speak God’s truth, even in places where it is unpopular or difficult. 我會說出上帝的真理，即使在不受歡迎或困難的地方。",
+      "I will speak God’s truth, even in places where it is unpopular or difficult. ",
     number: 111,
     category: "Prophecy 預言",
-    chineseContent: "",
+    chineseContent: "我會說出上帝的真理，即使在不受歡迎或困難的地方。",
   },
   {
     textContent:
-      "I can gently restore wandering believers to faith and fellowship. 我可以溫和地恢復流離的信徒的信仰和團契。",
+      "I can gently restore wandering believers to faith and fellowship. ",
     number: 112,
     category: "Shepherding 牧養",
-    chineseContent: "",
+    chineseContent: "我可以溫和地恢復流離的信徒的信仰和團契。",
   },
   {
     textContent:
-      "I can present information and skills to others at a level that makes it easy for them to grasp and apply to their lives. 我可以將信息和技能以一個使他們易於理解並應用到生活中的水平呈現給其他人。",
+      "I can present information and skills to others at a level that makes it easy for them to grasp and apply to their lives. ",
     number: 113,
     category: "Teaching 教導",
-    chineseContent: "",
+    chineseContent:
+      "我可以將信息和技能以一個使他們易於理解並應用到生活中的水平呈現給其他人。",
   },
   {
     textContent:
-      "I can apply Scriptural truth that others regard as practical and helpful. 我可以應用經文真理，其他人認為是實用和有幫助的。",
+      "I can apply Scriptural truth that others regard as practical and helpful.",
     number: 114,
     category: "Wisdom 智慧",
-    chineseContent: "",
+    chineseContent: "我可以應用經文真理，其他人認為是實用和有幫助的。",
   },
   {
     textContent:
-      "I can visualize a coming event, anticipate potential problems, and develop backup plans. 我可以想像即將到來的事件，預見潛在問題，並制定備用計劃。",
+      "I can visualize a coming event, anticipate potential problems, and develop backup plans. ",
     number: 115,
     category: "Administration 管理",
-    chineseContent: "",
+    chineseContent: "我可以想像即將到來的事件，預見潛在問題，並制定備用計劃。",
   },
   {
     textContent:
-      "I am able to orchestrate or oversee several church ministries. 我能夠組織或監督幾個教會事工。",
+      "I am able to orchestrate or oversee several church ministries. ",
     number: 116,
     category: "Apostleship 使徒",
-    chineseContent: "",
+    chineseContent: "我能夠組織或監督幾個教會事工。",
   },
   {
     textContent:
-      "I am able to design and construct things that help the church. 我能夠設計和建造有助於教會的事物。",
+      "I am able to design and construct things that help the church. ",
     number: 117,
     category: "Craftsmanship 工藝",
-    chineseContent: "",
+    chineseContent: "我能夠設計和建造有助於教會的事物。",
   },
   {
     textContent:
-      "I regularly need to get alone to reflect and develop my imagination. 我經常需要獨處來反思和發展我的想像力。",
+      "I regularly need to get alone to reflect and develop my imagination. ",
     number: 118,
     category: "Creative Communication 創意交流",
-    chineseContent: "",
+    chineseContent: "我經常需要獨處來反思和發展我的想像力。",
   },
   {
     textContent:
-      "I can sense when demonic forces are at work in a person or situation. 我可以感覺到魔鬼在一個人或情況中起作用。",
+      "I can sense when demonic forces are at work in a person or situation. ",
     number: 119,
     category: "Discernment 辨別",
-    chineseContent: "",
+    chineseContent: "我可以感覺到魔鬼在一個人或情況中起作用。",
   },
   {
     textContent:
-      "I am able to challenge or rebuke others in order to foster spiritual growth. 我能夠挑戰或指責他人以促進精神成長。",
+      "I am able to challenge or rebuke others in order to foster spiritual growth. ",
     number: 120,
     category: "Encouragement 鼓勵",
-    chineseContent: "",
+    chineseContent: "我能夠挑戰或指責他人以促進精神成長。",
   },
   {
     textContent:
-      "I seek opportunities to talk about spiritual matters with unbelievers. 我尋求與非信徒談論屬靈事務的機會。",
+      "I seek opportunities to talk about spiritual matters with unbelievers. ",
     number: 121,
     category: "Evangelism 傳福音",
-    chineseContent: "",
+    chineseContent: "我尋求與非信徒談論屬靈事務的機會。",
   },
   {
     textContent:
-      "I can move forward in spite of opposition or lack of support when I sense God’s blessing on an undertaking. 我可以在感覺到上帝祝福的事業中，盡管遇到反對或缺乏支持，我仍然可以前進。",
+      "I can move forward in spite of opposition or lack of support when I sense God’s blessing on an undertaking. ",
     number: 122,
     category: "Faith 信心",
-    chineseContent: "",
+    chineseContent:
+      "我可以在感覺到上帝祝福的事業中，盡管遇到反對或缺乏支持，我仍然可以前進。",
   },
   {
     textContent:
-      "I believe I have been given an abundance of resources so that I may give more to the Lord’s work. 我相信我已經得到了豐富的資源，以便我可以給予主的工作更多。",
+      "I believe I have been given an abundance of resources so that I may give more to the Lord’s work. ",
     number: 123,
     category: "Giving 奉獻",
-    chineseContent: "",
+    chineseContent:
+      "我相信我已經得到了豐富的資源，以便我可以給予主的工作更多。",
   },
   {
     textContent:
-      "I readily and happily use my natural skills to help wherever needed. 我樂意並高興地使用我的天賦技能來幫助任何需要的地方。",
+      "I readily and happily use my natural skills to help wherever needed. ",
     number: 124,
     category: "Helps 幫助",
-    chineseContent: "",
+    chineseContent: "我樂意並高興地使用我的天賦技能來幫助任何需要的地方。",
   },
   {
     textContent:
-      "I can make people feel at ease even in unfamiliar surroundings. 我可以讓人們即使在陌生的環境中也感到輕鬆自在。",
+      "I can make people feel at ease even in unfamiliar surroundings. ",
     number: 125,
     category: "Hospitality 好客",
-    chineseContent: "",
+    chineseContent: "我可以讓人們即使在陌生的環境中也感到輕鬆自在。",
   },
   {
     textContent:
-      "I often see specific results in direct response to my prayers. 我經常看到對我的祈禱的直接回應。",
+      "I often see specific results in direct response to my prayers. ",
     number: 126,
     category: "Intercession 代禱",
-    chineseContent: "",
+    chineseContent: "我經常看到對我的祈禱的直接回應。",
   },
   {
-    textContent:
-      "I confidently share my knowledge and insights with others. 我自信地與他人分享我的知識和見解。",
+    textContent: "I confidently share my knowledge and insights with others. ",
     number: 127,
     category: "Knowledge 知識",
-    chineseContent: "",
+    chineseContent: "我自信地與他人分享我的知識和見解。",
   },
   {
     textContent:
-      "I figure out where we need to go and help others to get there. 我找出我們需要去哪裡，並幫助其他人到達那裡。",
+      "I figure out where we need to go and help others to get there. ",
     number: 128,
     category: "Leadership 領導",
-    chineseContent: "",
+    chineseContent: "我找出我們需要去哪裡，並幫助其他人到達那裡。",
   },
   {
-    textContent:
-      "I enjoy doing practical things for others who are in need. 我喜歡為有需要的人做實際的事情。",
+    textContent: "I enjoy doing practical things for others who are in need. ",
     number: 129,
     category: "Mercy 憐憫",
-    chineseContent: "",
+    chineseContent: "我喜歡為有需要的人做實際的事情。",
   },
   {
     textContent:
-      "I feel compelled to expose sin when I see it and challenge people to repent. 當我看到罪惡時，我感到有必要揭露罪惡並挑戰人們悔改。",
+      "I feel compelled to expose sin when I see it and challenge people to repent. ",
     number: 130,
     category: "Prophecy 預言",
-    chineseContent: "",
+    chineseContent: "當我看到罪惡時，我感到有必要揭露罪惡並挑戰人們悔改。",
   },
   {
-    textContent:
-      "I enjoy patiently but firmly nurturing others as believers. 我喜歡耐心但堅定地培育其他人成為信徒。",
+    textContent: "I enjoy patiently but firmly nurturing others as believers. ",
     number: 131,
     category: "Shepherding 牧養",
-    chineseContent: "",
+    chineseContent: "我喜歡耐心但堅定地培育其他人成為信徒。",
   },
   {
-    textContent:
-      "I enjoy explaining things to people so that they can grow. 我喜歡向人們解釋事情，以便他們可以成長。",
+    textContent: "I enjoy explaining things to people so that they can grow. ",
     number: 132,
     category: "Teaching 教導",
-    chineseContent: "",
+    chineseContent: "我喜歡向人們解釋事情，以便他們可以成長。",
   },
   {
     textContent:
-      "I have insights into how to solve problems that others do not see. 我對如何解決其他人看不到的問題有見解。",
+      "I have insights into how to solve problems that others do not see. ",
     number: 133,
     category: "Wisdom 智慧",
-    chineseContent: "",
+    chineseContent: "我對如何解決其他人看不到的問題有見解。",
   },
 ];
 
