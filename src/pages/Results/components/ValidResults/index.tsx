@@ -16,7 +16,7 @@ import {
 localStorage.setItem("savedHref", window.location.href);
 
 const ValidResults = ({ results }: { results: Result[] }) => (
-  <div className="flex flex-col space-y-4 text-center p-4 overflow-scroll">
+  <div className="flex flex-col space-y-4 text-center p-4 overflow-scroll text-primary">
     <Helmet>
       <title>屬靈恩賜評估結果</title>
     </Helmet>
