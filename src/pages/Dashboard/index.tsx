@@ -10,8 +10,16 @@ import {
 import { Alert, AlertDescription, AlertTitle } from "../../components/ui/alert";
 import { Download } from "lucide-react";
 import { eventName } from "../../configuration";
+import { useEffect, useState } from "react";
 
 export default function Dashboard() {
+  const [savedHref, setSavedHref] = useState("");
+  useEffect(() => {
+    const href = localStorage.getItem("savedHref");
+    if (href) {
+      setSavedHref(href);
+    }
+  }, []);
   return (
     <main className="flex flex-1 flex-col gap-4 p-4 lg:gap-6 lg:p-6">
       <Helmet>
@@ -32,6 +40,22 @@ export default function Dashboard() {
           </Button>
         </CardFooter>
       </Card>
+      {savedHref != "" && (
+        <Card className="sm:col-span-2">
+          <CardHeader className="pb-3">
+            <CardTitle>✨ Your Quiz Result Is Now Available!</CardTitle>
+            <CardDescription className="leading-relaxed">
+              Your quiz result is now available! Click the button below to view
+              your result.
+            </CardDescription>
+          </CardHeader>
+          <CardFooter>
+            <Button onClick={() => window.open(savedHref, "_self")}>
+              View Result
+            </Button>
+          </CardFooter>
+        </Card>
+      )}
       <Alert className="hover:bg-zinc-100 dark:hover:bg-zinc-900">
         <Download className="h-4 w-4" />
         <AlertTitle>Download & Save this App Offline</AlertTitle>

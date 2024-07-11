@@ -1,5 +1,13 @@
+import { Button } from "../../components/ui/button";
+import {
+  Card,
+  CardDescription,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from "../../components/ui/card";
 import useAnswers from "hooks/useAnswers";
-import { useMemo } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { Helmet } from "react-helmet-async";
 import { Link } from "react-router-dom";
 import { questionsPerPage } from "utils/constants";
@@ -7,12 +15,19 @@ import { questionsPerPage } from "utils/constants";
 const Homepage = () => {
   const { unansweredQuestions, questionsWithAnswers, clearAnswers } =
     useAnswers();
+  const [savedHref, setSavedHref] = useState("");
   const [firstUnansweredQuestion] = unansweredQuestions;
   const hasStarted = useMemo(
     () =>
       questionsWithAnswers.some((question) => question.answer !== undefined),
     [questionsWithAnswers]
   );
+  useEffect(() => {
+    const href = localStorage.getItem("savedHref");
+    if (href) {
+      setSavedHref(href);
+    }
+  }, []);
   return (
     <main className="flex flex-1 flex-col gap-4 p-4 lg:gap-6 lg:p-6 text-primary">
       <Helmet>
@@ -58,6 +73,22 @@ const Homepage = () => {
           </Link>
         )}
       </div>
+      {savedHref != "" && (
+        <Card className="sm:col-span-2">
+          <CardHeader className="pb-3">
+            <CardTitle>✨ Your Quiz Result Is Now Available!</CardTitle>
+            <CardDescription className="leading-relaxed">
+              Your quiz result is now available! Click the button below to view
+              your result.
+            </CardDescription>
+          </CardHeader>
+          <CardFooter>
+            <Button onClick={() => window.open(savedHref, "_self")}>
+              View Result
+            </Button>
+          </CardFooter>
+        </Card>
+      )}
     </main>
   );
 };
