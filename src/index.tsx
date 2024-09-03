@@ -29,8 +29,10 @@ ReactDOM.render(
 serviceWorkerRegistration.register({
   onSuccess: (registration) =>
     store.dispatch(serviceWorkerInitialized(registration)),
-  onUpdate: (registration) =>
-    store.dispatch(serviceWorkerUpdated(registration)),
+  onUpdate: (registration) => {
+    store.dispatch(serviceWorkerUpdated(registration));
+    console.log("New version available. Please refresh the page.");
+  },
 });
 
 // If you want to start measuring performance in your app, pass a function
