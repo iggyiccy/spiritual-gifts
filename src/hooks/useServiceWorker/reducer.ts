@@ -19,24 +19,36 @@ export const serviceWorkerSlice = createSlice({
     serviceWorkerInitialized: (
       state,
       action: PayloadAction<ServiceWorkerRegistration>
-    ) => ({
-      ...state,
-      serviceWorkerInitialized: true,
-      serviceWorkerRegistration: action.payload,
-    }),
+    ) => {
+      console.log("Service worker initialized");
+      return {
+        ...state,
+        serviceWorkerInitialized: true,
+        serviceWorkerRegistration: action.payload,
+      };
+    },
     serviceWorkerUpdated: (
       state,
       action: PayloadAction<ServiceWorkerRegistration>
-    ) => ({
-      ...state,
-      serviceWorkerUpdated: true,
-      serviceWorkerRegistration: action.payload,
-    }),
-    initiatedUpdate: (state) => ({ ...state, serviceWorkerUpdated: false }),
-    resetUpdateStatus: (state) => ({
-      ...state,
-      serviceWorkerUpdated: false,
-    }),
+    ) => {
+      console.log("Service worker updated");
+      return {
+        ...state,
+        serviceWorkerUpdated: true,
+        serviceWorkerRegistration: action.payload,
+      };
+    },
+    initiatedUpdate: (state) => {
+      console.log("Initiated update");
+      return { ...state, serviceWorkerUpdated: false };
+    },
+    resetUpdateStatus: (state) => {
+      console.log("Reset update status");
+      return {
+        ...state,
+        serviceWorkerUpdated: false,
+      };
+    },
   },
 });
 
