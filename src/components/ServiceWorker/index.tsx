@@ -16,6 +16,8 @@ const UpdateForServiceWorkerAvailableDialog = lazy(
 
 const ServiceWorker = () => {
   const { isInitialized, isUpdated } = useServiceWorker();
+  console.log("isInitialized:", isInitialized);
+  console.log("isUpdated:", isUpdated);
   return (
     <>
       {isInitialized && <InitialServiceWorkerInstallationDialog />}
