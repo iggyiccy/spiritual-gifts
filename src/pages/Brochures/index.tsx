@@ -10,7 +10,7 @@ export default function Brochures() {
         <title>2024 NLEC 巴拿巴生活營 Brochures</title>
       </Helmet>
       <Alert
-        className="hover:bg-zinc-100"
+        className="hover:bg-zinc-100 dark:hover:bg-zinc-800"
         onClick={() => {
           const link = document.createElement("a");
           link.href = "/2024brochures.pdf";
@@ -26,12 +26,34 @@ export default function Brochures() {
           You can download the brochures by clicking HERE
         </AlertDescription>
       </Alert>
+      {/* image 1-27 */}
       <img src="/1.png" />
       <img src="/2.png" />
       <img src="/3.png" />
       <img src="/4.png" />
       <img src="/5.png" />
       <img src="/6.png" />
+      <img src="/7.png" />
+      <img src="/8.png" />
+      <img src="/9.png" />
+      <img src="/10.png" />
+      <img src="/11.png" />
+      <img src="/12.png" />
+      <img src="/13.png" />
+      <img src="/14.png" />
+      <img src="/15.png" />
+      <img src="/16.png" />
+      <img src="/17.png" />
+      <img src="/18.png" />
+      <img src="/19.png" />
+      <img src="/20.png" />
+      <img src="/21.png" />
+      <img src="/22.png" />
+      <img src="/23.png" />
+      <img src="/24.png" />
+      <img src="/25.png" />
+      <img src="/26.png" />
+      <img src="/27.png" />
     </main>
   );
 }
