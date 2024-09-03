@@ -20,51 +20,43 @@ import {
 
 export default function Timetable() {
   const day1schedule = [
-    { time: "8:00 AM", activity: "Breakfast" },
-    { time: "9:00 AM", activity: "Morning Worship & Devotional" },
-    { time: "10:00 AM", activity: "Group Prayer & Reflection" },
-    { time: "11:00 AM", activity: "Break" },
-    { time: "11:30 AM", activity: "Workshop: Building a Strong Prayer Life" },
-    { time: "1:00 PM", activity: "Lunch" },
-    { time: "2:00 PM", activity: "Afternoon Session: Guest Speaker" },
-    { time: "4:00 PM", activity: "Break" },
-    { time: "4:30 PM", activity: "Group Activities: Scripture Scavenger Hunt" },
-    { time: "6:00 PM", activity: "Dinner" },
-    { time: "7:00 PM", activity: "Evening Session: Worship & Testimonies" },
-    { time: "9:00 PM", activity: "End of Day" },
+    { time: "3:30pm-5:00pm", activity: "Check-in & Registration ℹ️" },
+    { time: "5:00pm-6:30pm", activity: "Camp Opening Ceremony 🎊" },
+    { time: "6:30pm-7:30pm", activity: "Dinner 🍕" },
+    { time: "7:30pm-9:00pm", activity: "Drama Performance🕺" },
+    { time: "9:00pm-10:00pm", activity: "Campfire 🔥" },
   ];
 
   const day2schedule = [
-    { time: "8:00 AM", activity: "Breakfast" },
-    { time: "9:00 AM", activity: "Morning Devotional" },
-    { time: "10:00 AM", activity: "Community Service Project" },
-    { time: "11:00 AM", activity: "Break" },
-    { time: "11:30 AM", activity: "Workshop: Christian Leadership" },
-    { time: "1:00 PM", activity: "Lunch" },
-    { time: "2:00 PM", activity: "Afternoon Session: Faith in Action" },
-    { time: "4:00 PM", activity: "Break" },
-    { time: "4:30 PM", activity: "Group Activities: Small Group Bible Study" },
-    { time: "6:00 PM", activity: "Dinner" },
+    { time: "8:00am-9:00am", activity: "Breakfast 🍳" },
+    { time: "9:00am-11:00am", activity: "Theme Talk: 信仰GOD 💬" },
+    { time: "11:00am-12:00pm", activity: "Station Games 🎯" },
+    { time: "12:00pm-1:30pm", activity: "Lunch 🥗" },
+    { time: "1:30pm-2:30pm", activity: "Games 🎮" },
+    { time: "2:30pm-3:00pm", activity: "Break 🥱" },
+    { time: "3:00pm-3:30pm", activity: "Group Photo 📸" },
+    { time: "3:30pm-4:30pm", activity: "Q&A Session 🙋" },
     {
-      time: "7:00 PM",
-      activity: "Evening Session: Faith-Based Movie & Discussion",
+      time: "4:30pm-5:00pm",
+      activity: "Theme Talk: 信仰與恩賜 🎁",
     },
-    { time: "9:00 PM", activity: "End of Day" },
+    { time: "5:00pm-6:00pm", activity: "Small Talk 💛 to 💛" },
+    {
+      time: "6:00pm-7:00pm",
+      activity: "Dinner 🍔",
+    },
+    { time: "7:00pm-10:00pm", activity: "Theme Movie 🍿 & Discussion 💬" },
   ];
 
   const day3schedule = [
-    { time: "8:00 AM", activity: "Breakfast" },
-    { time: "9:00 AM", activity: "Morning Reflection & Worship" },
-    { time: "10:00 AM", activity: "Break" },
-    { time: "10:30 AM", activity: "Workshop: Staying Connected with God" },
-    { time: "12:00 PM", activity: "Lunch" },
-    { time: "1:00 PM", activity: "Afternoon Session: Q&A with Camp Leaders" },
-    { time: "3:00 PM", activity: "Creative Projects: Prayer Journals" },
-    { time: "5:00 PM", activity: "Break" },
-    { time: "5:30 PM", activity: "Group Activities: Scripture Art" },
-    { time: "7:00 PM", activity: "Dinner" },
-    { time: "8:00 PM", activity: "Evening Session: Communion & Commissioning" },
-    { time: "9:00 PM", activity: "End of Day" },
+    { time: "8:00am-9:00am", activity: "Breakfast 🥐" },
+    { time: "9:00am-11:00am", activity: "Theme Talk: 突破信仰的阻礙 🏃‍➡️" },
+    { time: "11:00pm-12:00pm", activity: "Packing Up 🎒" },
+    {
+      time: "12:00pm-1:30pm",
+      activity: "Lunch 🧆",
+    },
+    { time: "1:30pm-3:00pm", activity: "Closing Ceremony 🎉" },
   ];
 
   return (
