@@ -138,7 +138,7 @@ export default function Songs() {
           全賴有著你，才令這生極美。
         </p>
         <h2 className="mt-10 scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight transition-colors first:mt-0">
-          伴我成長
+          我們的神
         </h2>
         <p className="leading-7 [&:not(:first-child)]:mt-6">
           諸天述說天父的榮耀 <br />
