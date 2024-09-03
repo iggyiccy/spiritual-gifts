@@ -15,6 +15,10 @@ const useServiceWorker = () => {
   );
   const dispatch = useDispatch();
   const updateServiceWorker = useCallback(() => {
+    console.log("Update Service Worker called");
+    console.log("isUpdated:", isUpdated);
+    console.log("registration:", registration);
+
     if (isUpdated) {
       if (registration) {
         const registrationWaiting = registration.waiting;
@@ -22,13 +26,16 @@ const useServiceWorker = () => {
           registrationWaiting.postMessage({ type: "SKIP_WAITING" });
           registrationWaiting.addEventListener("statechange", (e: any) => {
             if (e.target.state === "activated") {
+              console.log("Service Worker activated");
               window.location.reload();
             }
           });
         } else {
+          console.log("No registration waiting");
           window.location.reload();
         }
       } else {
+        console.log("No registration");
         window.location.reload();
       }
     }
