@@ -27,16 +27,16 @@ const useServiceWorker = () => {
           registrationWaiting.addEventListener("statechange", (e: any) => {
             if (e.target.state === "activated") {
               console.log("Service Worker activated");
-              // window.location.reload();
+              window.location.reload();
             }
           });
         } else {
           console.log("No registration waiting");
-          // window.location.reload();
+          window.location.reload();
         }
       } else {
         console.log("No registration");
-        // window.location.reload();
+        window.location.reload();
       }
     }
     dispatch(initiatedUpdate);
