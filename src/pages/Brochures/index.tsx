@@ -13,7 +13,7 @@ export default function Brochures() {
         className="hover:bg-zinc-100 dark:hover:bg-zinc-800"
         onClick={() => {
           const link = document.createElement("a");
-          link.href = "/2024brochures.pdf";
+          link.href = "/2024brochures.pdf"; // TODO: Update the brochures
           link.download = "2024brochures.pdf"; // Optional: Specify a filename for the downloaded file
           document.body.appendChild(link); // Append to body
           link.click(); // Programmatically click the link to trigger download
