@@ -19,6 +19,7 @@ import {
   MapPinned,
   Music,
   Gift,
+  Notebook,
 } from "lucide-react";
 import { Button } from "components/ui/button";
 import {
@@ -122,13 +123,13 @@ const App = () => {
                               <Gift className="h-4 w-4" />
                               Gifts{" "}
                             </a>
-                            {/* <a
-                              href="/events"
+                            <a
+                              href="/notes"
                               className="flex items-center gap-3 rounded-lg px-3 py-2 text-muted-foreground transition-all hover:text-primary"
                             >
-                              <Tent className="h-4 w-4" />
-                              Events
-                            </a> */}
+                              <Notebook className="h-4 w-4" />
+                              Notes
+                            </a>
                             <a
                               href="/maps"
                               className="flex items-center gap-3 rounded-lg px-3 py-2 text-muted-foreground transition-all hover:text-primary"
@@ -240,13 +241,13 @@ const App = () => {
                                 <Gift className="h-5 w-5" />
                                 Gifts
                               </a>
-                              {/* <a
-                                href="/events"
+                              <a
+                                href="/notes"
                                 className="mx-[-0.65rem] flex items-center gap-4 rounded-xl px-3 py-2 text-muted-foreground hover:text-foreground"
                               >
-                                <Tent className="h-5 w-5" />
-                                Events
-                              </a> */}
+                                <Notebook className="h-5 w-5" />
+                                Notes
+                              </a>
                               <a
                                 href="/maps"
                                 className="mx-[-0.65rem] flex items-center gap-4 rounded-xl px-3 py-2 text-muted-foreground hover:text-foreground"

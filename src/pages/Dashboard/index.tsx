@@ -56,7 +56,7 @@ export default function Dashboard() {
           </CardFooter>
         </Card>
       )}
-      <Alert className="hover:bg-zinc-100 dark:hover:bg-zinc-900">
+      <Alert className="hover:bg-zinc-100 dark:hover:bg-zinc-800">
         <Download className="h-4 w-4" />
         <AlertTitle>Download & Save this App Offline</AlertTitle>
         <AlertDescription className="mt-4 spae">
