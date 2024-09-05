@@ -51,9 +51,9 @@ export default function Brochures() {
       <img src="/22.png" />
       <img src="/23.png" />
       <img src="/24.png" />
-      <img src="/25.png" />
+      {/* <img src="/25.png" />
       <img src="/26.png" />
-      <img src="/27.png" />
+      <img src="/27.png" /> */}
     </main>
   );
 }
