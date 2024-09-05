@@ -25,8 +25,7 @@ const useQuestions = (): Question[] => [
     textContent:
       "I enjoy working creatively with wood, cloth, paints, metal, glass, or other materials. ",
     number: 3,
-    chineseContent:
-      "我喜歡運用木材、布料、油漆、金屬、玻璃等材料進行創作。",
+    chineseContent: "我喜歡運用木材、布料、油漆、金屬、玻璃等材料進行創作。",
     category: "Craftsmanship 工藝",
   },
   {
@@ -61,7 +60,7 @@ const useQuestions = (): Question[] => [
       "I find it natural and easy to trust God to answer my prayers. ",
     number: 8,
     category: "Faith 信心",
-    chineseContent: "相信神必會回答我的禱告是件很自然的事。",
+    chineseContent: "我覺得很自然也很容易信任上帝會回答我的祈禱。",
   },
   {
     textContent:
@@ -236,8 +235,7 @@ const useQuestions = (): Question[] => [
       "I can patiently support those going through painful experiences as they try to stabilize their lives. ",
     number: 34,
     category: "Mercy 憐憫",
-    chineseContent:
-      "我可以耐心地支持那些身處苦痛經歷，試圖過穩定生活的人。",
+    chineseContent: "我可以耐心地支持那些身處苦痛經歷，試圖過穩定生活的人。",
   },
   {
     textContent: "I feel responsible to confront others with the truth. ",
@@ -271,7 +269,7 @@ const useQuestions = (): Question[] => [
       "I can clarify goals and develop strategies or plans to accomplish them. ",
     number: 39,
     category: "Administration 管理",
-    chineseContent: "我可以澄清目標並製定策略或計劃來達成目標。",
+    chineseContent: "我可以明確目標並制定策略或計劃來實現它。",
   },
   {
     textContent:
@@ -305,14 +303,14 @@ const useQuestions = (): Question[] => [
       "I give hope to others by directing them to the promises of God. ",
     number: 44,
     category: "Encouragement 鼓勵",
-    chineseContent: "通過引導人到神的應許，我為他們帶來希望。",
+    chineseContent: "我通過引導人到神的應許，為他們帶來希望。",
   },
   {
     textContent:
       "I am effective at adapting the gospel message so that it connects with an individual's felt need. ",
     number: 45,
     category: "Evangelism 傳福音",
-    chineseContent: "我擅長調整福音信息，迎合聽者的個人需要。",
+    chineseContent: "我擅長調整福音信息，貼近每個人的實際需求。",
   },
   {
     textContent: "I believe that God will help me to accomplish great things. ",
@@ -339,20 +337,22 @@ const useQuestions = (): Question[] => [
       "I genuinely believe the Lord directs strangers to me who need to get connected to others. ",
     number: 49,
     category: "Hospitality 好客",
-    chineseContent: "我真誠地相信主會引導陌生人來找我，因為他們需要與別人聯繫。",
+    chineseContent:
+      "我真誠地相信主會引導陌生人來找我，因為他們需要與別人聯繫。",
   },
   {
     textContent: "I am conscious of ministering to others as I pray. ",
     number: 50,
     category: "Intercession 代禱",
-    chineseContent: "我在祈禱時能意識到我正在服侍他人。",
+    chineseContent: "我在禱告時，會想到其他人的需要，並在禱告中為他們祈求。",
   },
   {
     textContent:
       "I am committed, and schedule blocks of time for reading and studying scripture, to understand biblical truth fully and accurately. ",
     number: 51,
     category: "Knowledge 知識",
-    chineseContent: "我致力分配時間閱讀和研究經文，好讓自己能整全並準確地理解聖經真理。",
+    chineseContent:
+      "我致力分配時間閱讀和研究經文，好讓自己能整全並準確地理解聖經真理。",
   },
   {
     textContent:
@@ -380,7 +380,7 @@ const useQuestions = (): Question[] => [
       "I like to provide guidance for the whole person – relationally, emotionally, spiritually, etc. ",
     number: 55,
     category: "Shepherding 牧養",
-    chineseContent: "我喜歡提供全人指導，包括：人際、情感、屬靈等。",
+    chineseContent: "我喜歡從各方面提供他人指導，包括:人際關係、情感、靈性等。",
   },
   {
     textContent:
@@ -401,7 +401,7 @@ const useQuestions = (): Question[] => [
       "I can identify and effectively use the resources needed to accomplish tasks. ",
     number: 58,
     category: "Administration 管理",
-    chineseContent: "我可以識別並有效地使用完成工作所需的資源。",
+    chineseContent: "我能夠找到並有效地使用完成任務所需要的各種資源。",
   },
   {
     textContent: "I can adapt well to different cultures and surroundings. ",
@@ -447,7 +447,7 @@ const useQuestions = (): Question[] => [
       "I trust God in circumstances where success cannot be guaranteed by human effort alone. ",
     number: 65,
     category: "Faith 信心",
-    chineseContent: "我在單靠人的努力無法保證成功的情況下信任神。",
+    chineseContent: "在那些單靠人力無法保證成功的情況下，我會信靠上帝。",
   },
   {
     textContent:
@@ -460,14 +460,14 @@ const useQuestions = (): Question[] => [
     textContent: "I see spiritual significance in doing practical tasks. ",
     number: 67,
     category: "Helps 幫助",
-    chineseContent: "我在做實務的工作時看到屬靈意義。",
+    chineseContent: "我在處理日常實際工作或任務時，會看到其中的屬靈意義。",
   },
   {
     textContent:
       "I like to create a place where people do not feel that they are alone. ",
     number: 68,
     category: "Hospitality 好客",
-    chineseContent: "我喜歡創造一個讓人們不覺得孤單的地方。",
+    chineseContent: "我喜歡創造一個讓人們不覺得孤單的環境。",
   },
   {
     textContent:
@@ -480,7 +480,7 @@ const useQuestions = (): Question[] => [
     textContent: "I have insight or just know something to be true. ",
     number: 70,
     category: "Knowledge 知識",
-    chineseContent: "我有洞察力或能確實知道某些事情。",
+    chineseContent: "我能夠透過內在的洞察力或直覺，知道某些事情是真實的。",
   },
   {
     textContent:
@@ -554,7 +554,7 @@ const useQuestions = (): Question[] => [
       "I receive affirmation from others concerning the reliability of my insights or perceptions. ",
     number: 81,
     category: "Discernment 辨別",
-    chineseContent: "我獲別人肯定我的洞察力或感知力是可靠的。",
+    chineseContent: "我從他人那裡得到肯定，確認我的洞察力或直覺是可靠的。",
   },
   {
     textContent: "I strengthen those who are wavering in their faith. ",
@@ -581,8 +581,7 @@ const useQuestions = (): Question[] => [
       "I like knowing that my financial support makes a real difference in the lives and ministries of God’s people. ",
     number: 85,
     category: "Giving 奉獻",
-    chineseContent:
-      "我喜歡知道我的經濟支持對神的子民的生活和事工有實質影響。",
+    chineseContent: "我喜歡知道我的經濟支持對神的子民的生活和事工有實質影響。",
   },
   {
     textContent:
@@ -629,7 +628,7 @@ const useQuestions = (): Question[] => [
     textContent: "I like people who are honest and will speak the truth. ",
     number: 92,
     category: "Prophecy 預言",
-    chineseContent: "我喜歡誠實的人，並會說出真相。",
+    chineseContent: "我喜歡那些誠實並願意說實話的人。",
   },
   {
     textContent:
@@ -776,14 +775,14 @@ const useQuestions = (): Question[] => [
       "I can apply Scriptural truth that others regard as practical and helpful.",
     number: 114,
     category: "Wisdom 智慧",
-    chineseContent: "我可以應用經文真理，其他人認為是實用和有幫助的。",
+    chineseContent: "我能夠運用聖經的真理，使他人認為這些真理實用而且有幫助。",
   },
   {
     textContent:
       "I can visualize a coming event, anticipate potential problems, and develop backup plans. ",
     number: 115,
     category: "Administration 管理",
-    chineseContent: "我可以想像即將到來的活動，預見潛在問題，並制定後備方案。",
+    chineseContent: "我能夠預見即將發生的事件，預測潛在問題，並制定後備方案。",
   },
   {
     textContent:
