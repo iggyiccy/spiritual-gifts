@@ -26,7 +26,7 @@ export default function Brochures() {
           You can download the brochures by clicking HERE
         </AlertDescription>
       </Alert>
-      {/* image 1-27 */}
+
       <img src="/1.png" />
       <img src="/2.png" />
       <img src="/3.png" />
@@ -51,9 +51,11 @@ export default function Brochures() {
       <img src="/22.png" />
       <img src="/23.png" />
       <img src="/24.png" />
-      {/* <img src="/25.png" />
+      <img src="/25.png" />
       <img src="/26.png" />
-      <img src="/27.png" /> */}
+      <img src="/27.png" />
+      <img src="/28.png" />
+      <img src="/29.png" />
     </main>
   );
 }
