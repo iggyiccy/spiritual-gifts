@@ -8,6 +8,8 @@ import { Helmet } from "react-helmet-async";
 import usePercentageDone from "hooks/usePercentageDone";
 import { Label } from "../../components/ui/label";
 import { RadioGroup, RadioGroupItem } from "../../components/ui/radio-group";
+import { Alert, AlertDescription, AlertTitle } from "../../components/ui/alert";
+import { Meh } from "lucide-react";
 
 interface Answer {
   value: 0 | 1 | 2 | 3;
@@ -43,6 +45,17 @@ const QuestionSection = () => {
         <PaginationControls />
       </header>
       <main className="text-primary px-12">
+        <Alert className="hover:bg-zinc-100 dark:hover:bg-zinc-800 mb-4">
+          <Meh className="h-4 w-4" />
+          <AlertTitle>做到一半好攰，想一陣間再繼續?</AlertTitle>
+          <AlertDescription>
+            你可以先返回主頁，下載這個程序到你手機，後再回來繼續答題。
+            <br />
+            If you are tired and want to take a break, you can download this
+            assessment to your phone and continue later.
+          </AlertDescription>
+        </Alert>
+
         {questionsWithAnswers.map((question) => {
           const fieldsetId = `${styles.question}-${question.number}`;
           return (

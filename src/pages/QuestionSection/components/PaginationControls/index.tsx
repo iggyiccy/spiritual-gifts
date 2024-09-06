@@ -4,7 +4,12 @@ import { useMemo } from "react";
 import { Link, useParams } from "react-router-dom";
 import { questionsPerPage, setsOfQuestions } from "utils/constants";
 import SubmitAssessmentLink from "../SubmitAssessmentLink";
-import styles from "./PaginationControls.module.css";
+import {
+  Alert,
+  AlertTitle,
+  AlertDescription,
+} from "../../../../components/ui/alert";
+import { Download, Meh } from "lucide-react";
 
 const PaginationControls = () => {
   const params = useParams<"questionSetNumber">();
@@ -57,6 +62,7 @@ const PaginationControls = () => {
         )}
         {isAbleToFinish && <SubmitAssessmentLink />}
       </div>
+
       {unansweredQuestionsFromPreviousPages.length > 0 && (
         <div>
           <p>請回去回答以下問題：</p>
