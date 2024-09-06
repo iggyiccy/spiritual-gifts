@@ -161,8 +161,8 @@ const ValidResults = ({ results }: { results: Result[] }) => {
             <AlertDescription>
               下載呢個程序到你手機， 入camp嘅時候再返嚟睇個結果 🙏
               <br />
-              Download this assessment to your phone and check the results when
-              you come to camp 🙏
+              Download this App to your phone and check the results when you
+              come to camp 🙏
             </AlertDescription>
           </Alert>
           <CountdownClock />
