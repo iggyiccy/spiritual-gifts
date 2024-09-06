@@ -51,8 +51,8 @@ const QuestionSection = () => {
           <AlertDescription>
             你可以先返回主頁，下載這個程序到你手機，後再回來繼續答題。
             <br />
-            If you are tired and want to take a break, you can download this
-            assessment to your phone and continue later.
+            If you are tired and want to take a break, you can download this App
+            to your phone and continue later.
           </AlertDescription>
         </Alert>
 
