@@ -8,7 +8,11 @@ const SubmitAssessmentLink = () => {
   const { clearAnswers } = useAnswers();
   return useMemo(
     () => (
-      <Link to={`/result/${resultsSearchParams}`} onClick={clearAnswers}>
+      <Link
+        to={`/result/${resultsSearchParams}`}
+        onClick={clearAnswers}
+        className="text-primary text-sm"
+      >
         結束
       </Link>
     ),
