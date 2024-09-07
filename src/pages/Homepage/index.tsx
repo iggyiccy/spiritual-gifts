@@ -73,7 +73,7 @@ const Homepage = () => {
           </Link>
         )}
       </div>
-      {savedHref != "" && (
+      {savedHref !== "" && (
         <Card className="sm:col-span-2">
           <CardHeader className="pb-3">
             <CardTitle>✨ Your Quiz Result Is Now Available!</CardTitle>

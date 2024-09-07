@@ -23,7 +23,7 @@ import {
   ResponsiveContainer,
 } from "recharts";
 import { useEffect, useState } from "react";
-import { Clock, Meh } from "lucide-react";
+import { Clock } from "lucide-react";
 
 localStorage.setItem("savedHref", window.location.href);
 

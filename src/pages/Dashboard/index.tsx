@@ -25,7 +25,6 @@ export default function Dashboard() {
       <Helmet>
         <title>2024 NLEC 巴拿巴生活營</title>
       </Helmet>
-
       <Card className="sm:col-span-2">
         <CardHeader className="pb-3">
           <CardTitle>✨ Spiritual Gifts Quiz</CardTitle>
@@ -40,7 +39,7 @@ export default function Dashboard() {
           </Button>
         </CardFooter>
       </Card>
-      {savedHref != "" && (
+      {savedHref !== "" && (
         <Card className="sm:col-span-2">
           <CardHeader className="pb-3">
             <CardTitle>✨ Your Quiz Result Is Now Available!</CardTitle>
