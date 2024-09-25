@@ -20,43 +20,77 @@ import {
 
 export default function Timetable() {
   const day1schedule = [
-    { time: "3:30pm-5:00pm", activity: "Check-in & Registration ℹ️" },
-    { time: "5:00pm-6:30pm", activity: "Camp Opening Ceremony 🎊" },
-    { time: "6:30pm-7:30pm", activity: "Dinner 🍕" },
-    { time: "7:30pm-9:00pm", activity: "Drama Performance🕺" },
-    { time: "9:00pm-10:00pm", activity: "Campfire 🔥" },
+    {
+      time: "3:00pm-4:15pm",
+      activity: "Check-in & Registration ℹ️",
+      location: "The Barn",
+    },
+    {
+      time: "4:15pm-5:15pm",
+      activity: "Camp Opening Ceremony 🎊",
+      location: "The Barn",
+    },
+    { time: "5:15pm-6:30pm", activity: "Dinner 🍕", location: "Canteen" },
+    {
+      time: "6:30pm-8:00pm",
+      activity: "Drama Performance🕺",
+      location: "The Barn",
+    },
+    {
+      time: "8:00pm-9:30pm",
+      activity: "Candle Night 🕯️& Small Talk 💛",
+      location: "The Barn",
+    },
   ];
 
   const day2schedule = [
-    { time: "8:00am-9:00am", activity: "Breakfast 🍳" },
-    { time: "9:00am-11:00am", activity: "Theme Talk: 信仰GOD 💬" },
-    { time: "11:00am-12:00pm", activity: "Station Games 🎯" },
-    { time: "12:00pm-1:30pm", activity: "Lunch 🥗" },
-    { time: "1:30pm-2:30pm", activity: "Games 🎮" },
-    { time: "2:30pm-3:00pm", activity: "Break 🥱" },
-    { time: "3:00pm-3:30pm", activity: "Group Photo 📸" },
-    { time: "3:30pm-4:30pm", activity: "Q&A Session 🙋" },
+    { time: "8:00am-9:15am", activity: "Breakfast 🍳", location: "Canteen" },
     {
-      time: "4:30pm-5:00pm",
+      time: "9:15am-11:30am",
+      activity: "Theme Talk: 信仰GOD 💬",
+      location: "The Barn",
+    },
+    {
+      time: "11:30am-12:30pm",
+      activity: "Station Games 🎯",
+      location: "Sports Stadium",
+    },
+    { time: "12:30pm-1:00pm", activity: "Group Photo 📸" },
+    { time: "1:00pm-2:00pm", activity: "Lunch 🥗", location: "Canteen" },
+    { time: "2:00pm-3:00pm", activity: "Q&A Session 🙋", location: "The Barn" },
+    {
+      time: "3:00pm-4:00pm",
+      activity: "Games 🎮 ",
+      location: "Sports Stadium",
+    },
+    { time: "4:00pm-5:00pm", activity: "Break 🥱" },
+    {
+      time: "5:00pm-5:30pm",
       activity: "Theme Talk: 信仰與恩賜 🎁",
+      location: "The Barn",
     },
-    { time: "5:00pm-6:00pm", activity: "Small Talk 💛 to 💛" },
+    { time: "5:30pm-6:30pm", activity: "Dinner 🍔", location: "Canteen" },
     {
-      time: "6:00pm-7:00pm",
-      activity: "Dinner 🍔",
+      time: "6:30pm-9:30pm",
+      activity: " Theme Movie 🍿 & Discussion 💬",
+      location: "The Barn",
     },
-    { time: "7:00pm-10:00pm", activity: "Theme Movie 🍿 & Discussion 💬" },
   ];
 
   const day3schedule = [
-    { time: "8:00am-9:00am", activity: "Breakfast 🥐" },
-    { time: "9:00am-11:00am", activity: "Theme Talk: 突破信仰的阻礙 🏃‍➡️" },
+    { time: "8:00am-9:00am", activity: "Breakfast 🥐", location: "Canteen" },
+    {
+      time: "9:00am-11:00am",
+      activity: "Theme Talk: 突破信仰的阻礙 🏃‍➡️",
+      location: "The Barn",
+    },
     { time: "11:00pm-12:00pm", activity: "Packing Up 🎒" },
     {
-      time: "12:00pm-1:30pm",
-      activity: "Lunch 🧆",
+      time: "12:00pm-1:00pm",
+      activity: "Closing Ceremony 🎉",
+      location: "The Barn",
     },
-    { time: "1:30pm-3:00pm", activity: "Closing Ceremony 🎉" },
+    { time: "1:00pm-2:00pm", activity: "Lunch 🧆 ", location: "Canteen" },
   ];
 
   return (
@@ -78,11 +112,16 @@ export default function Timetable() {
             </CardHeader>
             <CardContent className="space-y-2">
               {day1schedule.map((item, index) => (
-                <div key={index} className="grid grid-cols-4">
-                  <span>{item.time}</span>
-                  <span className="break-words whitespace-normal text-right col-start-2 col-end-5">
-                    {item.activity}
-                  </span>
+                <div key={index} className="grid grid-cols-2">
+                  <span className="font-bold">{item.time}</span>
+                  <div className="flex flex-col text-right">
+                    <span className="break-words whitespace-normal font-bold text-right col-start-2 col-end-5">
+                      {item.activity}
+                    </span>
+                    <span className="break-words whitespace-normal text-sm text-right col-start-2 col-end-5">
+                      {item.location ? item.location : "TBA"}
+                    </span>
+                  </div>
                 </div>
               ))}
             </CardContent>
@@ -96,11 +135,16 @@ export default function Timetable() {
             </CardHeader>
             <CardContent className="space-y-2">
               {day2schedule.map((item, index) => (
-                <div key={index} className="grid grid-cols-4">
-                  <span>{item.time}</span>
-                  <span className="break-words whitespace-normal text-right col-start-2 col-end-5">
-                    {item.activity}
-                  </span>
+                <div key={index} className="grid grid-cols-2">
+                  <span className="font-bold">{item.time}</span>
+                  <div className="flex flex-col text-right">
+                    <span className="break-words whitespace-normal font-bold text-right col-start-2 col-end-5">
+                      {item.activity}
+                    </span>
+                    <span className="break-words whitespace-normal text-sm text-right col-start-2 col-end-5">
+                      {item.location ? item.location : "TBA"}
+                    </span>
+                  </div>
                 </div>
               ))}
             </CardContent>
@@ -114,11 +158,16 @@ export default function Timetable() {
             </CardHeader>
             <CardContent className="space-y-2">
               {day3schedule.map((item, index) => (
-                <div key={index} className="grid grid-cols-4">
-                  <span>{item.time}</span>
-                  <span className="break-words whitespace-normal text-right col-start-2 col-end-5">
-                    {item.activity}
-                  </span>
+                <div key={index} className="grid grid-cols-2">
+                  <span className="font-bold">{item.time}</span>
+                  <div className="flex flex-col text-right">
+                    <span className="break-words whitespace-normal font-bold text-right col-start-2 col-end-5">
+                      {item.activity}
+                    </span>
+                    <span className="break-words whitespace-normal text-sm text-right col-start-2 col-end-5">
+                      {item.location ? item.location : "TBA"}
+                    </span>
+                  </div>
                 </div>
               ))}
             </CardContent>

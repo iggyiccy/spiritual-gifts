@@ -1,4 +1,5 @@
 import { Helmet } from "react-helmet-async";
+
 export default function Teams() {
   return (
     <main className="flex flex-1 flex-col gap-4 p-4 lg:gap-6 lg:p-6 text-primary">
@@ -14,49 +15,81 @@ export default function Teams() {
           Team 1
         </h2>
         <p className="leading-7 [&:not(:first-child)]:mt-6">
-          Quintillus Judith
+          Katrina
           <br />
-          Cataleya Nydia
+          Jane
           <br />
-          Bonifác Fauna
+          Winson
           <br />
-          Porcius Lovro
+          Felix
           <br />
-          Neda Laurus
+          Victor
           <br />
-          Þórví Jiang
+          Carmen
         </p>
+
         <h2 className="mt-10 scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight transition-colors first:mt-0">
           Team 2
         </h2>
         <p className="leading-7 [&:not(:first-child)]:mt-6">
-          Quintillus Judith
+          Mike
           <br />
-          Cataleya Nydia
+          Thomas
           <br />
-          Bonifác Fauna
+          Annie
           <br />
-          Porcius Lovro
+          Regina
           <br />
-          Neda Laurus
+          Natalie
           <br />
-          Þórví Jiang
+          Gloria
         </p>
+
         <h2 className="mt-10 scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight transition-colors first:mt-0">
           Team 3
         </h2>
         <p className="leading-7 [&:not(:first-child)]:mt-6">
-          Quintillus Judith
+          Matthew
           <br />
-          Cataleya Nydia
+          Simon
           <br />
-          Bonifác Fauna
+          Sing
           <br />
-          Porcius Lovro
+          Erin
           <br />
-          Neda Laurus
+          Mirenda
+        </p>
+
+        <h2 className="mt-10 scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight transition-colors first:mt-0">
+          Team 4
+        </h2>
+        <p className="leading-7 [&:not(:first-child)]:mt-6">
+          Dorothy
           <br />
-          Þórví Jiang
+          Kevin
+          <br />
+          Joey
+          <br />
+          Lam Yi
+          <br />
+          Dennis
+        </p>
+
+        <h2 className="mt-10 scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight transition-colors first:mt-0">
+          Team 5
+        </h2>
+        <p className="leading-7 [&:not(:first-child)]:mt-6">
+          Katie
+          <br />
+          Samuel
+          <br />
+          Man man
+          <br />
+          Olivia
+          <br />
+          Owen
+          <br />
+          Joseph
         </p>
       </div>
     </main>

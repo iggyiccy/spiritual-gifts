@@ -35,6 +35,10 @@ export default function Maps() {
           src="/Campaspe-Downs-Map-23-2.png"
           className={`overflow-scroll ${isLandscape ? "landscape" : ""}`}
         />
+        <img
+          src="/rooms.jpeg"
+          className={`overflow-scroll ${isLandscape ? "landscape" : ""}`}
+        />
       </main>
     </>
   );
