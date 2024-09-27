@@ -112,13 +112,13 @@ export default function Timetable() {
             </CardHeader>
             <CardContent className="space-y-2">
               {day1schedule.map((item, index) => (
-                <div key={index} className="grid grid-cols-2">
+                <div key={index} className="grid grid-cols-4">
                   <span className="font-bold">{item.time}</span>
-                  <div className="flex flex-col text-right">
-                    <span className="break-words whitespace-normal font-bold text-right col-start-2 col-end-5">
+                  <div className="flex flex-col text-right col-start-2 col-end-5">
+                    <span className="break-words whitespace-normal font-bold text-right">
                       {item.activity}
                     </span>
-                    <span className="break-words whitespace-normal text-sm text-right col-start-2 col-end-5">
+                    <span className="break-words whitespace-normal text-sm text-right">
                       {item.location ? item.location : "TBA"}
                     </span>
                   </div>
@@ -135,13 +135,13 @@ export default function Timetable() {
             </CardHeader>
             <CardContent className="space-y-2">
               {day2schedule.map((item, index) => (
-                <div key={index} className="grid grid-cols-2">
+                <div key={index} className="grid grid-cols-4">
                   <span className="font-bold">{item.time}</span>
-                  <div className="flex flex-col text-right">
-                    <span className="break-words whitespace-normal font-bold text-right col-start-2 col-end-5">
+                  <div className="flex flex-col text-right col-start-2 col-end-5">
+                    <span className="break-words whitespace-normal font-bold text-right">
                       {item.activity}
                     </span>
-                    <span className="break-words whitespace-normal text-sm text-right col-start-2 col-end-5">
+                    <span className="break-words whitespace-normal text-sm text-right">
                       {item.location ? item.location : "TBA"}
                     </span>
                   </div>
@@ -158,13 +158,13 @@ export default function Timetable() {
             </CardHeader>
             <CardContent className="space-y-2">
               {day3schedule.map((item, index) => (
-                <div key={index} className="grid grid-cols-2">
+                <div key={index} className="grid grid-cols-4">
                   <span className="font-bold">{item.time}</span>
-                  <div className="flex flex-col text-right">
-                    <span className="break-words whitespace-normal font-bold text-right col-start-2 col-end-5">
+                  <div className="flex flex-col text-right col-start-2 col-end-5">
+                    <span className="break-words whitespace-normal font-bold text-right">
                       {item.activity}
                     </span>
-                    <span className="break-words whitespace-normal text-sm text-right col-start-2 col-end-5">
+                    <span className="break-words whitespace-normal text-sm text-right">
                       {item.location ? item.location : "TBA"}
                     </span>
                   </div>
